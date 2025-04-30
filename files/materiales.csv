@@ -1,0 +1,487 @@
+ ,,,Emitió:  Sandra Híjar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,T.C.," $ 20,000 "
+"FCOM-01-03       REV: 128
+Liberado:  11 Nov 2024",, Último Cambio:,"Modificación de precio en BB34 (SY1071H), BM08 (F04426XM), BT13, BT30 (SY2039R), BT39 (SY14X), CS27 (380SV), CS35 (PL750N), CS40 (380SV), DI28 (290SV), DI33 (290SV), EH01, NL03 (B5558), PB01 (72828), PB05 (78385), PD11 (79983M), PE01 (77005), PH09 (53282), PL06 (78387), PL07 (72826), PO05 (78232), PT02 (77844), TC01 (14554), TT01, TT02, TT04 (B6853), TT06 (280SV), TT09 (14188), TT15 (280SV), TT29 (54091), TT36 (280SV), TT38 (2806SV), TY02, TY04 (78849), TY05 (79255), TY06 (79546), TY07 (78610), UV04, UV12 (800-IV), WI04 (54171), WI05 (B5584), WI11 (19650), WI13 (WL60S). // Se descontinua material CS03 (15336), DI09 (18685), FC02 (76909), GC04 (78876), MT06 (53381), NL01 (53470). // Alta material PJL2652MX (BB48), PF2632MX (BT33), PDT4057 (DI38), NWS5101 (PD12). // Se sustituye material TT17 de TT183S a TT227N. // Modificación de barniz UV04, se elimina FT23M y sustituye con BF394. //",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LISTADO DE MATERIA PRIMA CON CLAVE INTERNA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,NOMBRE,"CLAVE
+INTERNA",CLAVE PROVEEDOR,PROVEEDOR,DESCRIPCION,CALIBRE SUPERFICIAL (Mil),TIPO ADHESIVO,RESPALDO (Mil),CALIBRE TOTAL (Mil),TIPO RECUBRIMIENTO EN PELICULAS,PRESENTACIONES,DISPONIBILIDAD,OBS,APROBACION PARA CONTACTO CON ALIMENTOS,SUSTENTABLES,DIGITAL,COMPROMISO DE TIEMPO DE ENTREGA,COSTO PARA COTIZAR,MON, PRECIO POR M2 ,MON,NOMBRES CORTOS,Rendimiento,,Precio de compra,,Costo por M2,,MON," A PARTIR DE REV. 104 MATERIALES COMODITIES +4%, SIN ADHESIVO 12%, RESTO 6%
+A PARTIR DE REV. 105 MATERIALES COMODITIES +5% (PRECIOS NEGOCIADOS A LA BAJA EN BB, BT, CS, DI04 SOLAMENTE) ", DESCRIPTIVO ,DIGITAL,,,
+1,Bopp Blanco Genérico,BB01,,,"2102F (FEDRIGONI), 76911M (AVERY), SY2040S (RAFLATAC), SY1071H (RAFLATAC), SY51M (RAFLATAC)",,,,,,,EXACT,,Verificar por clave,,,," $ 0,530 ", USD ,,,BOPP BCO,,,,,,100%,, PRECIO PARA COTIZAR DICTADO POR ING. ESC - REV 105 31ENE2023 , GENERICO ,,,,
+2,Bopp Blanco Genérico,BB07,,,"2102F (FEDRIGONI), 76911M (AVERY), SY2040S (RAFLATAC), SY1071H (RAFLATAC), SY51M (RAFLATAC)",,,,,,,EXACT,,Verificar por clave,,,," $ 0,530 ", USD ,,,BOPP BCO,,,,,,100%,, PRECIO PARA COTIZAR DICTADO POR ING. ESC - REV 105 31ENE2023 , GENERICO ,,,,
+3,Bopp blanco adh.acrilico - GENERICO APLICACIÓN 'AGUA',BB09,,,"2102F (FEDRIGONI), 76911M (AVERY), SY1071H (RAFLATAC), SY51M (RAFLATAC)",,,,,,,EXACT,,Verificar por clave,,,," $ 0,530 ", USD ,,,BOPP BCO,,,,,,100%,, PRECIO PARA COTIZAR DICTADO POR ING. ESC - REV 105 31ENE2023 ,GENERICO,,,,
+4,Bopp blanco adhesivo S692N (ANTES 76911),BB06,76911M,AVERY,2.4 Mil White BOPP TC/S692N/40#BG,"2,4",Acrílico,2,5,TOP COATED,1.524 x 1524,"EXACT 
+MASTER",EXACT 1500 Y 3000 ML,Indirecto o incidental,APR para polietileno ,,24 Hrs.," $ 0,530 ", USD ," $ 0,5100 ",USD,BOPP BCO,,,,,,4%,,,PP1,RECOMENDADO,,,
+5,"Bopp blanco con patrón de adhesivo, adh. acrílico",BB11,72176,TECHNICOTE,2.3MIL Polar White Polypropylene / TP170/LPG Adhesivo Patrón 1.3 Ctw / 50#SCK L-3,"2,3",Acrílico,"3,2",6,TOP COATED,0.762 x 1524,MASTER,Joyería,Indirecto o incidental,,,7 Semanas," $ 2,217 ", USD ," $ 2,0915 ",USD,BOPP BCO / PATRON,,,,,,6%,," 2 masters 0.762 x 1524 MSI 0.89 + 0.02 CORTE USD/MSI = 1.4105 USD/M2 + 150 USD PATRON + 155 USD FLETE USA + GASTOS DE IMPORTACION (25% FLETE MX Y AA) (1.4105+0.0646+0.066)*1.25 = 1.9264 Atualizado 21-01-2023
+1 masters 0.762 x 1524 MSI 0.89 + 0.02 CORTE USD/MSI = 1.4105 USD/M2 + 150 USD PATRON + 155 USD FLETE USA + GASTOS DE IMPORTACION (25% FLETE MX Y AA) (1.4105+0.1292+0.1335)*1.25 = 2.0915 Actualizado 21-01-2023 ",PP1,,,,
+6,Bopp blanco c/adhesivo para criogénicos,BB13,77392,AVERY,2.3Mil White Polypropylene TC/ C0196 / 40#BG,"2,3",Acrílico,"2,3","5,4",TOP COATED,"1.485 x 762 
+0.1651 x 508",MASTER,READY WIDTH,No Especificado,,,9 Semanas," $ 3,717 ", USD ," $ 3,5067 ",USD,BOPP BCO,,,,,,6%,,,NO ESPECIFICADO,,,,
+7,Bopp blanco con respaldo pet genérico,BB14,,,"78146M (AVERY), SY1073K (RAFLATAC)",,,,,,,EXACT,,Verificar por clave,,,," $ 0,635 ", USD ,,,BOPP BCO,,,,,,100%,,,GENERICO,,,,
+8,Bopp blanco con respaldo pet genérico,BB33,,,"78146M (AVERY), SY1073K (RAFLATAC)",,,,,,,EXACT,,Verificar por clave,,,," $ 0,635 ", USD ,,,BOPP BCO,,,,,,,,,,,,,
+9,Bopp blanco adhesivo acrilico,BB15,2102F,FEDRIGONI,60 PP CAVITED GLOSS WHITE TC / AP901 / WG62,"2,36",Acrílico,"2,17","5,33",TOP COATED,1.5 x 1500,"EXACT 
+MASTER",EXACT 3000 ML,Directo,,APROBADO,48 Hrs.," $ 0,530 ", USD ," $ 0,5100 ",USD,BOPP BCO,,,,,,4%,,,PP1,,,,
+10,Bopp blanco con respaldo pet (Sustituye a 78330),BB16,78146M,AVERY,2.4 Mil White BOPP TC/S692N/1.2 Mil PET,"2,4",Acrílico,"1,2","4,2",TOP COATED,1.524 x 762,MASTER,EXACT 3000 ML,Indirecto o incidental,APR para polietileno ,,24 Hrs.," $ 0,635 ", USD ," $ 0,5800 ",USD,BOPP BCO,,,,,,9%,,,PP4,,,,
+11,Bopp blanco adhesivo para exceso de humedad,BB19,103,AVERY,2.4 MIL WHITE BOPP  / S246 / 40# BG,"2,4",Hule,2,5,TOP COATED,"1.524 x 10,000",MASTER,,Indirecto o incidental,,,4 Semanas," $ 1,028 ", USD ," $ 0,9700 ",USD,BOPP BCO,,,,,,6%,,,PP2,,,,
+12,Bopp blanco adh acrílico,BB23,TL2601,MACtac,Durascan® L Thermal Transfer Film / 640AT / 40# SCK,3,Acrílico,"2,4","6,1",PRINT TREATED,1.524 x 1524,MASTER,,Indirecto o incidental,,,4 Semanas," $ 1,219 ", USD ," $ 1,1500 ",USD,BOPP BCO,,,,,,6%,,,PP1,,,,
+13,Bopp blanco respaldo papel,BB25,SY51M,RAFLATAC,2.6Mil PP Pearlescent White TC / RP37 / 2.2Mil High Density,"2,6",Acrílico,"2,09","5,1",TOP COATED,2 x 762,"EXACT 
+MASTER",EXACT 1524 Y 3048 ML,Indirecto o incidental,FSC EN EL RESPALDO,,48 Hrs.," $ 0,893 ", USD ," $ 0,8590 ",USD,BOPP BCO,,,,,,4%,,,PP1,,,,
+14,Bopp Blanco adh Hule,BB26,120,AVERY,2.4 MIL WHITE BOPP TC / S2005 / 40# BG,"2,4",Hule,2,5,TOP COATED,1.524 x 762,"EXACT 
+MASTER",EXACT 1500 ML,Indirecto o incidental,,,24 Hrs.," $ 0,729 ", USD ," $ 0,7009 ",USD,BOPP BCO,,,,,,4%,,,PP2,,,,
+15,Bopp blanco con respaldo pet para esterilización,BB29,79704,AVERY,2.3 Mil White BOPP TT/S717P/1.2 Mil Polyester,"2,3",Acrílico,"1,18","4,3",TOP COATED,1.524 x 1764,MASTER,,Indirecto o incidental,,,11 Semanas," $ 2,375 ", USD ," $ 2,2409 ",USD,BOPP BCO,,,,,,6%,,,PP4,,,,
+16,Bopp blanco TL2,BB30,14857,AVERY,2.6 Mil White Bopp / TL2 / 40#SCK,"2,6",Hule,"2,5","7,1",CORONA,0.762 x 762,MASTER,Largo Maximo 762 m,Indirecto o incidental,,,72 Hrs.," $ 1,979 ", USD ," $ 1,8668 ",USD,BOPP BCO,,,,,,6%,,,PP2,,,,
+17,Bopp Blanco adh Hule,BB31,PJ9001,MACtac,2.6 WHITE POLYPROPYLENE / 710VHP / 2.4 SCK,"2,6",Hule,"2,4","5,7",TOP COATED,1.98 x 1524,"EXACT 
+MASTER",EXACT 1524 ML,Indirecto o incidental,,,48 Hrs.," $ 0,728 ", USD ," $ 0,7000 ",USD,BOPP BCO,,,,,,4%,,,PP2,,,,
+18,Bopp Blanco IFCO (Imprimible por TT),BB32,992601,TECHNICOTE,2.6 MIL MATTE WHITE TT BOPP /AT333@1.5 CTW/40# SCK L-2    ,"2,6",Acrílico,"2,5","5,9",TOP COATED,1.32 x 1524,MASTER,,Directo,,,7 Semanas," $ 1,707 ", USD ," $ 1,6100 ",USD,BOPP BCO,,,,,,6%,," MASTER 1.32 X762M = MSI 0.747 = 1.1579+ 0.1988 FLETE USA (200)  = 1.3567 USD/M2 + GASTOS DE IMPORTACION (25% INCLUYE FLETE USA/MX Y AA) =1.6959 Actualizado 21-01-2023
+MASTER 1.32 X1524M = MSI 0.747 =1.1579+ 0.0994 FLETE USA (200)= 1.2573 USD/M2 + GASTOS DE IMPORTACION (25% INCLUYE FLETE USA/MX Y AA) =1.5716 Actualizado 21-01-2023 ",PP1,,,,
+19,Bopp blanco respaldo papel,BB34,SY1071H,RAFLATAC,2.4 MIL PP WHITE TC / RP37 / 2.2 MIL HIGH DENSITY ,"2,4",Acrílico,"2,09","5,1",TOP COATED,2 x 762,"EXACT 
+MASTER",EXACT 1524 ML,Indirecto o incidental,FSC EN EL RESPALDO,RECOMENDADO POR PROVEEDOR,48 Hrs.," $ 0,532 ", USD ," $ 0,5120 ",USD,BOPP BCO,,,,,,4%,,,PP1,,,,
+20,Bopp blanco brillante para impresión Ink jet,BB35,SY836N,RAFLATAC,POLYJET GLOSS WHITE PP / RP37 / 40# WHITE KRAFT,"3,5",Acrílico,"2,4","6,1",TOP COATED,1.524 x 762,"EXACT USA 
+MASTER","EXACT USA 762 ML 
+MIN 233 M2",Indirecto o incidental,,,11 Semanas," $ 2,850 ", USD ," $ 2,6890 ",USD,BOPP BCO,,,,,,6%,,,PP1,,,,
+21,Bopp blanco adh acrílico,BB37,PJ6914,MACtac,2.6 MIL WHITE BOPP / MP690 / 3.2 MIL SCK,"2,6",Acrílico,"3,2","6,8",TOP COATED,1.524 x 1524,MASTER,Largo Maximo 2000 m,Indirecto o incidental,,,4 Semanas," $ 1,484 ", USD ," $ 1,4000 ",USD,BOPP BCO,,,,,,6%,,,PP1,,,,
+22,Bopp blanco TL2,BB38,77252,AVERY,2.6 Mil White BOPP TC / TL2 / 40#SCK,"2,6",Hule,"2,5","7,1",TOP COATED,0.762 X 762 M,MASTER,Largo Maximo 762 m,Indirecto o incidental,,,11 Semanas," $ 1,989 ", USD ," $ 1,8760 ",USD,BOPP BCO,,,,,,,,,PP2,,,,
+23,Bopp blanco adh acrílico,BB39,WPI7350,GREEN BAY,PAPEL SINTETICO DE 75 μ / ADHESIVO ACRILICO PERMANENTE / LINER GLASSINE,3,Acrilico,"2,1","5,9",TOP COATED,1.53 x 1524,MASTER,Largo Maximo 1524 m,Indirecto o incidental,,,6 Semanas," $ 1,181 ", USD ," $ 1,1140 ",USD,BOPP BCO,,,,,,,,,,,,,
+24,Bopp blanco con adh para llantas,BB40,79462,AVERY,2.1 MIL PP TIRE TC WHITE / TS8000A / 50#MF (solid gum),"2,1",Hule,"3,4","7,5",TOP COATED,0.762 X 762 M,MASTER,Largo Maximo 762 m,No Especificado,,,11 Semanas," $ 2,058 ", USD ," $ 1,9414 ",USD,BOPP BCO,,,,,,,,,,,,,
+25,Bopp blanco adh acrílico,BB41,C17261,FEDRIGONI,BOPP BLANCO MATE TC 3.2 MIL / A110a24 / SCK 67G,3,Acrilico,"2,5","6,4",TOP COATED,1.515 X 1500 M,MASTER,,Indirecto o incidental,,,3 Semanas," $ 1,029 ", USD ," $ 0,9710 ",USD,BOPP BCO,,,,,,,,,,,,,
+26,Bopp blanco adh reposicionable,BB42,6444F,FEDRIGONI,60 PP GLOSS WHITE TC / AR827 / WG62,"2,4",Acrílico,"2,2","5,5",TOP COATED,1.5 x 1000 m,MASTER,,No Especificado,,,72 Hrs," $ 1,646 ", USD ," $ 1,5530 ",USD,BOPP BCO,,,,,,,,,,,,,
+27,Bopp blanco adh acrílico,BB43,G100WP74740SC,GREEN BAY,3.7 ML THERMAL TRAN BOPP / 747 PERMANENT ADHESIVE /40 SC LINER,"3,7",Acrilico,"2,4","6,8",TOP COATED,1.524 x 1524 M,MASTER,,No Especificado,,,," $ 1,497 ", USD ," $ 1,4120 ",USD,BOPP BCO,,,,,,,,,,,,,
+28,Bopp blanco con respaldo pet,BB44,SY1073K,RAFLATAC,2.4 MIL PP WHITE TC / RP37 / 1.2 MIL PET,"2,4",Acrilico,"1,2","4,2",TOP COATED,2 X 762,"EXACT 
+MASTER",EXACT 3048 ML,Indirecto o incidental,,,48 Hrs," $ 0,635 ", USD ," $ 0,5650 ",USD,BOPP BCO,,,,,,11%,,,RP4,,,,
+29,Bopp blanco adh resellable,BB45,FLX064717,FLEXCON,Optiflex Reseal 21133 2.3 Mil White Bopp TC / Resealable adhesive / Tracrite 120,"2,3",Acrílico,"1,2","4,2",TOP COATED,1.524 x 1524,"EXACT 
+MASTER","EXACT 3048 ML
+CORE 6""",Indirecto o incidental,,,5 Semanas," $ 1,257 ", USD ," $ 1,1858 ",USD,BOPP BCO RESELLABLE,,,,,,,,,,,,,
+30,Bopp blanco adhesivo acrilico,BB46,SY2040S,RAFLATAC,PP Gloss White TC 60 / RP37 / White Glass C5-FSC,"2,4",Acrílico,2,"4,88",TOP COATED,1.53 x 1500,"EXACT 
+MASTER",EXACT 1524 Y 3048 ML,Indirecto o incidental,,,24 Hrs.," $ 0,676 ", USD ," $ 0,6500 ",USD,BOPP BCO,,,,,,,,,,,,,
+31,Bopp blanco adhesivo lavable,BB47,SY1407H,RAFLATAC,2.4 MIL PP WHITE TC RW85C 1.2 mil PET PCR,"2,24",Acrílico,"1,18","3,94",TOP COATED,1 x 1500,MASTER,,Indirecto o incidental,ADHESIVO LAVABLE,,24 Hrs.," $ 0,731 ", USD ," $ 0,6900 ",USD,BOPP BCO,,,,,,,,,,,,,
+32,Bopp blanco adh acrílico,BB48,PJL2652MX,MACtac,2.4 MIL WHITE POLYPROPYLENE / 640AT / GLASSINE,"2,4",Acrílico,"2,1","5,2",TOP COATED,1.98 x 1500,"EXACT
+MASTER",EXACT 1524 Y 3048 ML,No Especificado,,,48 Hrs.," $ 0,541 ", USD ," $ 0,5200 ",USD,BOPP BCO,,,,,,,,,,,,,
+33,Bopp metalizado respaldo papel,BM02,,,"SY931M (RAFLATAC), SY88F (RAFLATAC)",,,,,,,EXACT,,Verificar por clave,,,," $ 0,832 ", USD ,,,BOPP METAL,,,,,,100%,,,GENERICO,,,,
+34,Bopp Metalizado Rafla,BM06,SY88F,RAFLATAC,2.0 Mil PP Chrome TC / RP37 / 2.2M High Density,2,Acrílico,"2,09","4,7",TOP COATED,1 x 762,"EXACT 
+MASTER",EXACT 1524 Y 3048 ML,Indirecto o incidental,FSC EN EL RESPALDO,APROBADO,24 Hrs.," $ 1,052 ", USD ," $ 1,0120 ",USD,BOPP METAL,,,,,,4%,,,PP1,RECOMENDADO,,,
+35,Bopp Metalizado Rafla,BM07,SY931M,RAFLATAC,2.0 MIL PP SILVER METALIZED TC / RP37 /2.2 MIL HIGH DENSITY,2,Acrílico,"2,09","4,6",TOP COATED,2 x 762,"EXACT 
+MASTER",EXACT 1524 ML,Indirecto o incidental,FSC EN EL RESPALDO,,48 Hrs.," $ 0,832 ", USD ," $ 0,8000 ",USD,BOPP METAL,,,,,,4%,,,PP1,,,,
+36,Bopp Metalizado Avery (Antes F04426X),BM08,F04426XM,AVERY,2M METTALLIZED BOPP TC / S692N / 40#BG,2,Acrílico,2,"4,6",TOP COATED,1.524 x 1524,"EXACT 
+MASTER",EXACT 1500 y 3000 ML,Indirecto o incidental,,,72 Hrs.," $ 0,832 ", USD ," $ 0,8000 ",USD,BOPP METAL,,,,,,4%,,,PP1,NO,,,
+37,Bopp Metalizado liner 62g (Arclad),BM09,PPMB50P1G62S,ARCLAD,BOPP METALIZADO PLATA / P1 / G62S,"1,97",Acrílico,"2,12","4,72",TOP COATED,1.5 x 1524,MASTER,,Indirecto o incidental,,APROBADO,48 Hrs.," $ 1,018 ", USD ," $ 0,9600 ",USD,BOPP METAL,,,,,,,,,PP1,,,,
+38,Bopp Metalizado liner 60g (Arclad),BM10,PPMB50P1G60S,ARCLAD,BOPP METALIZADO PLATA / P1 / G60S,"1,97",Acrílico,"2,05","4,65",TOP COATED,1.5 x 1524,MASTER,,Indirecto o incidental,,,48 Hrs.," $ 1,018 ", USD ," $ 0,9600 ",USD,BOPP METAL,,,,,,,,,PP1,,,,
+39,Bopp Metalizado liner 60g (Arclad),BM11,PPMB50P4G60S,ARCLAD,BOPP METALIZADO PLATA / P4 / G60S,"1,97",Acrílico,"2,05","4,65",TOP COATED,1.5 x 1524,MASTER,,Indirecto o incidental,,APROBADO,48 Hrs.," $ 1,018 ", USD ," $ 0,9600 ",USD,BOPP METAL,,,,,,,,,PP,,,,
+40,Bopp Transparente Genérico,BT01,,,"3838F (FEDRIGONI), 77008 (AVERY), SY2039R (RAFLATAC)",,,,,,,EXACT,,Verificar por clave,,,," $ 0,530 ", USD ,,,BOPP TRANS,,,,,,100%,, PRECIO PARA COTIZAR DICTADO POR ING. ESC - REV 105 31ENE2023 ,GENERICO,,,,
+41,Bopp transparente Raflatac,BT03,SY105C,RAFLATAC,2.0 Mil PP Clear TC / RP37 / 2.2 Mil High Density,"1,85",Acrílico,"2,09","4,4",TOP COATED,2 x 1000,"EXACT 
+MASTER",,Indirecto o incidental,FSC EN EL RESPALDO,RECOMENDADO POR PROVEEDOR,24 Hrs.," $ 0,729 ", USD ," $ 0,701 ",USD,BOPP TRANS,,,,,,4%,,,PP1,RECOMENDADO,,,
+42,Bopp transparente (Laminación local),BT04,77008,AVERY,2 Mil Clear Bopp TC / S692N / 40#BG,2,Acrílico,2,"4,6",TOP COATED,1.524 x 1524,"EXACT 
+MASTER",EXACT 1500 Y 3000 ML,Indirecto o incidental,APR para polietileno ,APROBADO,24 Hrs.," $ 0,530 ", USD ," $ 0,5100 ",USD,BOPP TRANS,,,,,,4%,,,PP1,RECOMENDADO,,,
+43,Bopp transparente,BT07,3838F,FEDRIGONI,50 PP GLOSS CLEAR TC / AP901 / WG62,2,Acrílico,"2,2",5,TOP COATED,1.5 x 1500,"EXACT 
+MASTER",EXACT 1524 Y 3048 ML,Directo,,,48 Hrs.," $ 0,530 ", USD ," $ 0,5100 ",USD,BOPP TRANS,,,,,,4%,,,PP1,,,,
+44,Bopp transparente adh fotoluminiscente,BT09,,,FLX000211 (FLEXCON),,,,,,,MASTER,,Verificar por clave,,,," $ 2,286 ", USD ,,,BOPP FOTOLUMINSCENTE ,,,,,,100%,,,GENERICO,,,,
+45,Bopp transparente adhesivo resellable,BT11,7192F,FEDRIGONI,60 PP GLOSS CLEAR TC / AR827C / PET30,"2,4",Acrílico,"1,2","4,4",TOP COATED,1.5 x 1500,MASTER,,Directo,,,Bajo stock," $ 1,303 ", USD ," $ 1,2290 ",USD,BOPP TRANS,,,,,,6%,,,PP4,,,,
+46,Bopp transparente 1.6Mil + Respaldo pet 0.92Mil,BT12,,,"FLX056455 (FLEXCON), AR110 ( AVERY)",,,,,,,EXACT,,Verificar por clave,,,," $ 0,648 ",USD,,,BOPP TRANS,,,,,,100%,, PRECIO PARA COTIZAR =+4% ,GENERICO,,,,
+47,Bopp transparente 2.0Mil + Respaldo pet 1.2Mil,BT13,,,"77138 (AVERY), SY14X (RAFLATAC)",,,,,,,EXACT,,Verificar por clave,,,," $ 0,572 ", USD ,,,BOPP TRANS,,,,,,100%,,,PP4,,,,
+48,Bopp transparente 1.6Mil + Respaldo pet 0.92Mil,BT14,FLX056455,FLEXCON,THINflex CPP16419 PP 160 H CLEAR TC-458 V-01 TRACrite 92,"1,6",Acrílico,"0,92","3,02",TOP COATED,1.524 x 1524,MASTER,PRECIO PARA 3MASTER X 3000 ML,Indirecto o incidental,REDUCCIÓN DE CALIBRES,,3 Semanas," $ 0,648 ", USD ," $ 0,6109 ",USD,BOPP TRANS,,,,,,6%,,,PP4,,,,
+49,"Bopp transparente, adhesivo hule",BT16,,,110 (AVERY),,,,,,,Verificar por clave,,Verificar por clave,,,," $ 0,687 ", USD ,,,BOPP TRANS,,,,,,100%,,, GENERICO ,,,,
+50,Bopp Transparente 35 Micras Sin Adhesivo (Rendieminto 0.03172),BT18,CAL35NATU,OVERLAMINATED,Polipropileno brillante sin adhesivo para laminar 35micras  (31.72 g/m2),"1,378",N/A,N/A,"1,378",CORONA,Ancho requerido,EXACT,EXACT 6000 ML,Indirecto o incidental,,,72 Hrs.," $ 0,220 ", USD ," $ 3,594 ",M.N.,BOPP S/ADH,"31,72",g/m2,"113,3",mxp,"3,593876",-1530%,, PRECIO $87.33 MXP/kg +0.03 usd /m2 de primer MAR-2021 REV 86 , PP0 ,,,,
+51,Bopp transparente 1.6Mil + Respaldo pet 0.92Mil (EUROPEO),BT20,AR110,AVERY,PP40 TOP CLEAR / S7400 / PET23,"1,58",Acrílico,"0,9","2,874",TOP COATED,2 X 1000,MASTER,,Indirecto o incidental,REDUCCIÓN DE CALIBRES,,22 Semanas," $ 0,737 ", USD ," $ 0,6956 ",USD,BOPP TRANS,,,,,,6%,,,PP4,,,,
+52,Bopp transparente 2.0Mil + Respaldo pet 1.2Mil,BT22,FLX056456,FLEXCON,OPTIFLEX CPP20413 PP 200 H CLEAR TC-458 / V-01 / TRACrite 120,2,Acrílico,"1,2","3,7",TOP COATED,1.524 x 1524,"EXACT
+MASTER","EXACT 1524, 3048 ML",Indirecto o incidental,,,4 Semanas," $ 0,714 ", USD ," $ 0,686 ",USD,BOPP TRANS,,,,,,4%,,, PP4 ,,,,
+53,Bopp transparente adh fotoluminiscente,BT23,FLX000211,FLEXCON,PHARMACAL SUPREME PP 200 H CLEAR TC-332 / V232C /TRACRITE 150,2,Solvente Acrílico,"1,4",4,TOP COATED,1.524 x 1524,MASTER,,Indirecto o incidental,,,3 Semanas," $ 2,286 ", USD ," $ 2,1562 ",USD,BOPP FOTOLUMINSCENTE ,,,,,,6%,,,PP4,,,,
+54,"Bopp transparente, adhesivo hule, respaldo papel",BT26,110,AVERY,2 MIL CLEAR BOPP TC / S2005 / 40# BG,2,Hule,2,"4,6",TOP COATED,1.524 x 750,"EXACT 
+MASTER",EXACT 1500 ML,Indirecto o incidental,,,72 Hrs.," $ 0,687 ", USD ," $ 0,6605 ",USD,BOPP TRANS,,,,,,4%,USD,, PP2 ,,,,
+55,Bopp transparente 2.0Mil + Respaldo pet 1.2Mil,BT28,77138,AVERY,2 MIL CLEAR BOPP TC / S692N / 1.2M PET,2,Acrilico,"1,2","3,8",TOP COATED,1.524 x 1524,"EXACT 
+MASTER",EXACT 1500 Y 3000 ML,Indirecto o incidental,,APROBADO,24 Hrs. ," $ 0,572 ", USD ," $ 0,5500 ",USD,BOPP TRANS,,,,,,4%,,, PP1 ,,,,
+56,Bopp transparente 2.0Mil + Respaldo pet 1.2Mil,BT29,SY14X,RAFLATAC,2.0Mil PP Clear TC / RP37 / 1.2Mil Pet,2,Acrílico,"1,2","3,6",TOP COATED,1 x 762,"EXACT 
+MASTER",EXACT 1524 y 3048 ML,Indirecto o incidental,,APROBADO,48 Hrs.," $ 0,572 ", USD ," $ 0,5500 ",USD,BOPP TRANS,,,,,,4%,,,PP4,,,,
+57,Bopp transparente,BT30,SY2039R,RAFLATAC,PP TRANSP. TC 50 / RP37 / WHITE GLASSINE C5-FSC,2,Acrílico,2,"4,53",TOP COATED,1.53 x 1524,"EXACT 
+MASTER",EXACT 1524 y 3048 ML,,,,24 Hrs.," $ 0,530 ", USD ," $ 0,5100 ",USD,BOPP TRANS,,,,,,,,,,,,,
+58,Bopp transparente adh resellable,BT31,FLX064722,FLEXCON,Optiflex Reseal 20133 2.0 Mil Clear Bopp TC / Resealable adhesive / Tracrite 120,2,Acrilico,"1,2","3,9",TOP COATED,1.524 x 1524,"EXACT 
+MASTER","EXACT 3048 ML
+CORE 6""",Indirecto o incidental,,,5 Semanas," $ 1,294 ", USD ," $ 1,2204 ",USD,BOPP TRANS RESELLABLE,,,,,,,,,,,,,
+59,Bopp transparente respaldo pet,BT32,6126F,FEDRIGONI,50 PP CLEAR ON CLEAR 50m TC / AP901 / PET30,"1,96",Acrilico,"1,18","3,84",TOP COATED,1.5 x 1500,"EXACT
+MASTER",EXACT 1524 Y 3048 ML,No Especificado,,,48 hrs," $ 0,598 ", USD ," $ 0,5750 ",USD,BOPP TRANS,,,,,,,,,,,,,
+60,Bopp transparente,BT33,PF2632MX,MACtac,2 MIL Clear Polypropylene / 640AT / GLASSINE,2,Acrilico,"2,1","4,8",TOP COATED,1.98 x 1500,"EXACT
+MASTER",EXACT 1524 Y 3048 ML,No Especificado,,,48 hrs," $ 0,541 ", USD ," $ 0,5200 ",USD,BOPP TRANS,,,,,,,,,,,,,
+61,Cartulina Sulfatada 1C 195 g,CA01,,,"MPSUCASU010C5 (GREEN BAY), SBSPRT10PT (COSAL)",,,,,,,MASTER,,Verificar por clave,,,," $ 0,529 ",USD,,,CARTULINA 10PT,195,g/m2,"1,53",usd,"0,29835",100%,,,GENERICO,,,,
+62,Cuché sin adhesivo 90 g,CA02,,,"MPSULUB0902C (GREEN BAY), 221E (ABASTECEDORA), 221F (ABASTECEDORA), 221D (ABASTECEDORA), SUNBRIGHT90G(COSAL)",,,,,,,MASTER,,Verificar por clave,,,," $ 0,189 ",USD,,,LUSTROLITO,90,g/m2,"1,41",usd,"0,1269",100%,,,GENERICO,,,,
+63,Cartulina transferencia térmica,CA05,53745,AVERY,8Pt C2S Thermal Transfer W/OB FSC,8,N/A,N/A,8,N/A,1.371 x 2178,"EXACT USA 
+MASTER",EXACT USA 2286 ML,No Especificado,,,9 Semanas," $ 0,681 ", USD ," $ 0,6427 ",USD,INTEGRITY,,,,,,6%,,,NO ESPECIFICADO,,,,
+64,Cartulina 1C 16Pt 293g/m2 (Rendiemineto 0.293),CA09,SBS16PT,IND. COSAL,Cartulina Sulfatada 1C SBS 16 Pts (293gr/m2),16,N/A,N/A,16,N/A,Checar existencias,MASTER,,No aplica,,,1 Semana," $ 0,515 ", USD ," $ 0,460 ",USD,CARTULINA 16PT,305,g/m2,"1,51",usd,"0,46055",11%,, $1.51 usd/kg 10-07-2018 , NO APLICA ,,,,
+65,Cartulina 1C 14Pt 264g/m2 (Rendimiento 0.264),CA13,SBS14PT,IND. COSAL,Cartulina Sulfatada 1C SBS 14 Pts (264gr/m2),14,N/A,N/A,14,N/A,Checar existencias,MASTER,,No aplica,,,1 Semana," $ 0,482 ", USD ," $ 0,430 ",USD,CARTULINA 14PT,285,g/m2,"1,51",usd,"0,43035",11%,, $1.51 usd/kg 10-07-2018 , NO APLICA ,,,,
+66,Cartulina 10pt 195 g (Rendimiento 0.195g),CA15,SBSPRT10PT,IND. COSAL,Cartulina 1C SBS PROTO 10 Pts Blanco (195gr/m2),10,N/A,N/A,10,N/A,Checar existencias,MASTER,,No aplica,,,1 Semana," $ 0,495 ", USD ," $ 0,442 ",USD,CARTULINA 10PT,195,g/m2,"2,265",usd,"0,441675",11%,, $1.53 usd/kg 10-07-2018 ,NO APLICA,,,,
+67,Cartulina 1C Transferencia Térmica,CA23,FP27C,RAFLATAC,7PT THERMAL TRANSFER,"7,3",N/A,N/A,"7,3",N/A,2.019 x 762,"EXACT USA 
+MASTER","EXACT USA 2286 ML 
+MIN 228 M2",No Especificado,,,3 Semanas," $ 0,710 ", USD ," $ 0,6700 ",USD,CARTULINA 7PT,,,,,,6%,,, NO ESPECIFICADO ,,,,
+68,"Cuché sin adhesivo 90 g
+MPSULUB0902C5-C",CA24,MPSULUB0902C,GREEN BAY,PAPEL COUCHE 2 CARAS DE 90 g,"2,8",N/A,N/A,"2,8",N/A,1.26 x 3000,MASTER,,No Especificado,,,72 Hrs.," $ 0,189 ", USD ," $ 0,169 ",USD,LUSTROLITO 90G,,,,,,11%,,,,,,,
+69,Cuché sin adhesivo 90 g (Rendimiento 0.090),CA26,221E,ABASTECEDORA METROPOLITANA,PAPEL BURGO 1 BRIGHT 90G 2 CARAS,"2,8",N/A,N/A,"2,8",N/A,Checar existencias,MASTER,,No Especificado,,,1 Semana," $ 0,134 ", USD ," $ 0,120 ",USD,CUCHE 90G REGISTRO,90,g/m2,"1,33",usd,"0,1197",11%,,, NO ESPECIFICADO ,,,,
+70,Cartulina 1c 8 pt,CA27,MPSUCASU008C5,GREEN BAY,CARTULINA SULFATADA 1C 8 PTS,8,N/A,N/A,8,N/A,1.524 x 1500,MASTER,,No Especificado,,,72 Hrs.," $ 0,483 ", USD ," $ 0,431 ",USD,CARTULINA 8PT,,,,,,11%,,,,,,,
+71,Cuche Fit (Rendimiento 0.090g),CA28,221F,ABASTECEDORA METROPOLITANA,PAPEL CUCHE FIT GLOSS 90G 2 CARAS ,"2,91",N/A,N/A,"2,91",N/A,Checar existencias,MASTER,,No Especificado,,,1 Semana," $ 0,188 ", USD ," $ 0,168 ",USD,CUCHE 90G REGISTRO,90,g/m2,"1,868",usd,"0,16812",11%,,,,,,,
+72,Cuche Royal (Rendimiento 0.090g),CA29,221D,ABASTECEDORA METROPOLITANA,ROYAL ROTO GLOSS 90G,"2,91",N/A,N/A,"2,91",N/A,Checar existencias,MASTER,,No Especificado,,,1 Semana," $ 0,178 ", USD ," $ 0,159 ",USD,CUCHE 90G REGISTRO,90,g/m2,"1,762",usd,"0,15858",,,,,,,,
+73,Cartulina 1c 8 pt (Rendimiento 0.161g),CA30,SBSPRT08PT,IND. COSAL,Cartulina 1C SBS PROTO 8 Pts Blanco (161gr/m2),8,N/A,N/A,8,N/A,Checar existencias,MASTER,,No Especificado,,,1 Semana," $ 0,529 ", USD ," $ 0,472 ",USD,CARTULINA 8PT,,,,,,,,, NO ESPECIFICADO ,,,,
+74,"Cuché sin adhesivo 90 g
+(Rendimiento 0.090g)",CA31,SUNBRIGHT90G,IND. COSAL,CUCHE CUBIERTO 2 C 90G SUNBRITE,"2,87",N/A,N/A,"2,87",N/A,Checar existencias,MASTER,,No Especificado,,,1 Semana," $ 0,185 ", USD ," $ 3,299 ",M.N.,CUCHE 90G REGISTRO,90,g/m2,"36,66",MXP,"3,2994",,,,,,,,
+75,Cold Foil plata,CF02,KPW ALUFIN,KURZ,Cold Foil Alufin KPW (Plata),"0,5",N/A,N/A,"0,5",N/A,"0.61 x 915 
+1.22 x 1525",MASTER,,No aplica,,,1 Semana," $ 0,490 ", USD ," $ 0,415 ",USD,COLD FOIL PLATA,,,,,,15%,,, NO APLICA ,,,,
+76,Cold Foil oro,CF03,LUXOR 220,KURZ,Cold Foil Luxor 220 KPW (Oro),"0,5",N/A,N/A,"0,5",N/A,"0.61 x 915 
+1.22 x 1525",MASTER,,No aplica,,,1 Semana," $ 0,490 ", USD ," $ 0,415 ",USD,COLD FOIL ORO,,,,,,15%,,, NO APLICA ,,,,
+77,Cold Foil Plata tornasol,CF13,HCUV9010,INFINITY FOILS,COLD FOIL PLATA TORNASOL,"0,47",N/A,N/A,"0,47",N/A,0.64 X 1525,MASTER,,No Especificado,,,2 Semanas," $ 1,536 ", USD ," $ 1,4020 ",USD,COLD FOIL TORNASOL,,,,,,9%,,, NO ESPECIFICADO ,,,,
+78,Cold Foil Plata tornasol,CF14,LASER-AL-KPO,KURZ,COLD FOIL HOLOGRAFICO SEAMLEASS KPO,"0,5",N/A,N/A,"0,5",N/A,0.61 X 1525,MASTER,,No Especificado,,,1 Semana," $ 1,546 ", USD ," $ 1,4117 ",USD,COLD FOIL TORNASOL,,,,,,9%,,, NO ESPECIFICADO ,,,,
+79,Cold Foil oro,CF15,KPW-OP-232,KURZ,COLD FOIL KPW-OP 232 ORO,,,,,,0.61 X 1525,MASTER,,No Especificado,,,," $ 0,628 ", USD ," $ 0,5450 ",USD,COLD FOIL ORO,,,,,,,,,,,,,
+80,Couché Satin Genérico,CS01,,,"C10031 (FEDRIGONI), 380SV (AVERY), PL750N (RAFLATAC), PBGG260 (GREEN B), C10981 (FEDRIGONI), J020 (AVERY), 15335N (AVERY), 15336 (AVERY), 1096SV (AVERY)",,,,,,,EXACT,,Verificar por clave,,,," $ 0,404 ", USD ,,,CUCHE,,,,,,100%,,,GENERICO,,,,
+81,Couché Satin Genérico,CS02,,,"C10031 (FEDRIGONI), 380SV (AVERY), PL750N (RAFLATAC), PBGG260 (GREEN B), C10981 (FEDRIGONI), J020 (AVERY), 15335N (AVERY), 15336 (AVERY), 1096SV (AVERY)",,,,,,,EXACT,,Verificar por clave,,,," $ 0,404 ", USD ,,,CUCHE,,,,,,100%,,,GENERICO,,,,
+82,Cuche adhesivo removible,CS10,18328,AVERY,60# Semi-Gloss Elite FSC / R5195 / 40#CK,3,Acrílico,"2,4","6,2",N/A,1.981 x 762,"EXACT 
+MASTER",EXACT 762 ML,Indirecto o incidental,FSC,,72 Hrs.," $ 1,049 ", USD ," $ 1,0086 ",USD,CUCHE,,,,,,4%,,,PA1,,,,
+83,Cuche Raflatac RP51 ,CS11,PL890J,RAFLATAC,54# Raflacoat Plus-FSC/ RP51 /  White Glass C5-FSC,"2,7",Acrílico,2,"5,3",N/A,1.530 X 1500,"EXACT
+MASTER",EXACT 1524 Y 3048 ML,Indirecto o incidental,FSC,,24 Hrs. ," $ 0,504 ", USD ," $ 0,485 ",USD,CUCHE,,,,,,4%,,,PA1,,,,
+84,Cuché (clave proveedor 01096SV),CS13,1096SV,AVERY,Dualprint FSC / S246 / 40#BG,"2,8",Hule,2,"5,2",N/A,1.524 x 1500,"EXACT 
+MASTER",EXACT 1500 ML,Indirecto o incidental,FSC,,72 Hrs.," $ 0,641 ", USD ," $ 0,6164 ",USD,CUCHE,,,,,,4%,,,PA2,,,,
+85,Cuché mate,CS14,J093,AVERY,CUCHE MATE 90g FSC / C4000 / CC 82G,"3,4",Hule,"3,2","6,8",N/A,1.32 x 1000,MASTER,,Indirecto o incidental,FSC,,1 Semana," $ 0,749 ", USD ," $ 0,7063 ",USD,CUCHE MATE,,,,,,6%,,,PA2,,,,
+86,Cuche adh p congelación (Antes 14471),CS16,14471M,AVERY,54# Semigloss FSC/AT20/40# BG,"2,6",Acrílico,2,"4,8",N/A,1.524 x 1524,"EXACT 
+MASTER",EXACT 1500 Y 3000  ML,Indirecto o incidental,FSC,,"72 Hrs.
+24 Hrs."," $ 0,607 ", USD ," $ 0,5832 ",USD,CUCHE,,,,,,4%,,,PA1,,,,
+87,Cuche 80g,CS22,J020,AVERY,Jac Chromo FSC / D170 / 40# BG,"2,6",Hule,2,"4,8",N/A,1.524 x 1500 ,"EXACT 
+MASTER",EXACT 1500 ML,Indirecto o incidental,FSC,,24 Hrs.," $ 0,496 ", USD ," $ 0,4770 ",USD,CUCHE,,,,,,4%,,,PA2,,,,
+88,Cuche adh FDA contacto directo,CS25,AC7002,MACtac,Platinum High Bright Semi-Gloss / 711VHP /  40# SCK,3,Hule,"2,45",6,N/A,1.98 x 762,EXACT,EXACT 1524 Y 3048 ML,Directo,,,72 Hrs.," $ 0,636 ", USD ," $ 0,6000 ",USD,CUCHE,,,,,,6%,,,PA2,,,,
+89,"Cuche 80g, respaldo pet",CS26,PL93A,RAFLATAC,54# RAFLACOAT / RP37 / 1.2 Mil PET,"2,7",Acrílico,"1,2","4,3",N/A,2 x 762,"EXACT 
+MASTER",EXACT 3048 ML,Indirecto o incidental,FSC EN SUPERFICIAL,RECOMENDADO POR PROVEEDOR,48 Hrs.," $ 0,686 ", USD ," $ 0,6600 ",USD,CUCHE,,,,,,4%,," SE CONSIDERA COSTO PARA COTIZAR + 6% POR PROYECTO COLGATE, NO DESPERDICIO A ANCHO 2M ",PA3,,,,
+90,Cuche 80g,CS27,380SV,AVERY,54# SEMIGLOSS FSC / S2005 / 40#BG,"2,6",Hule,2,"5,2",N/A,1.524 x 762,"EXACT 
+MASTER",EXACT 1500 Y 3000 ML,Indirecto o incidental,FSC,APROBADO,24 Hrs.," $ 0,390 ", USD ," $ 0,3750 ",USD,CUCHE,,,,,,4%,,,PA2,,,,
+91,Cuche 80g (Antes 8140P),CS28,C10031,FEDRIGONI,Couche Semigloss 1C 80g / H108K / R 2.1 Mil,"2,7",Hule,"2,1",,N/A,1 x 1524,"EXACT 
+MASTER",EXACT 3048 ML,Indirecto o incidental,,,48 Hrs.," $ 0,400 ", USD ," $ 0,3850 ",USD,CUCHE,,,,,,4%,,,PA2,,,,
+92,Cuche con adhesivo para llantas,CS29,13014,AVERY,60# SEMIGLOSS ELITE /TL2/ 40#SCK,"3,1",Hule,"2,36","6,5",N/A,0.762 x 762,MASTER,Largo Maximo 762 m,Indirecto o incidental,,,72 Hrs.," $ 1,849 ", USD ," $ 1,7442 ",USD,CUCHE,,,,,,6%,,,PA2,,,,
+93,Cuche IFCO,CS31,SP184W,RAFLATAC,54# Raflacoat FSC / RP45 / 40# WHITE KRAFT,"2,7",Acrílico,"2,4","5,8",N/A,1 x 762,MASTER,,Indirecto o incidental,FSC EN SUPERFICIAL,,3 Semanas," $ 1,092 ", USD ," $ 1,0300 ",USD,CUCHE,,,,,,6%,,,PA1,,,,
+94,Cuche adh acrílico respaldo pet,CS33,PL228U,RAFLATAC,Raflasilk FSC / RP51 / 1.2 Mil Pet,"2,8",Acrílico,"1,2","4,5",N/A,2 x 762,"EXACT USA 
+MASTER",EXACT USA 3048 ML,Indirecto o incidental,FSC EN SUPERFICIAL,RECOMENDADO POR PROVEEDOR,"3 Semanas 
+48 Hrs."," $ 0,723 ", USD ," $ 0,6950 ",USD,CUCHE,,,,,,4%,4% A PARTIR REV 103,,PA3,,,,
+95,Cuche 75g,CS35,PL750N,RAFLATAC,RAFLACOAT NXT FSC / RH9X / 2.1 mil WHITE GLASSINE-FSC,"2,48",Hule,"2,1","5,1",N/A,2 x 762,"EXACT 
+MASTER",EXACT 1524 Y 3048 ML,Indirecto o incidental,FSC EN SUPERFICIAL,,24 Hrs," $ 0,468 ", USD ," $ 0,4500 ",USD,CUCHE,,,,,,4%,,,PA2,,,,
+96,Cuche Raflatac acrilico,CS38,PL751P,RAFLATAC,RAFLACOAT NXT FSC / RP51 / 2.1 mil WHITE KRAFT-FSC,"2,48",Acrílico,"2,1","5,2",N/A,1 x 762,MASTER,,Indirecto o incidental,FSC,,72 Hrs.," $ 0,604 ", USD ," $ 0,5700 ",USD,CUCHE,,,,,,,,,,,,,
+97,Cuche 80g,CS40,380SV,AVERY,54# SEMIGLOSS FSC / S2005 / 40#BG,"2,6",Hule,2,"5,2",N/A,1.524 x 762,"EXACT 
+MASTER",EXACT 1500 Y 3000 ML,Indirecto o incidental,FSC,APROBADO,24 Hrs.," $ 0,390 ", USD ," $ 0,3750 ",USD,CUCHE,,,,,,,,,PA2,,,,
+98,Cuche 90g,CS41,C10181,FEDRIGONI,COUCHE SEMIGLOSS 1C 90g / H108K / SCK 67G,"2,9",Hule,"2,5","5,9",N/A,1.524 x 1524,MASTER,,Indirecto o incidental,,,48 Hrs.," $ 0,565 ", USD ," $ 0,5330 ",USD,CUCHE,,,,,,,,,PA2,,,,
+99,Cuché (clave proveedor 01096SV),CS42,1096SV,AVERY,Dualprint FSC / S246 / 40#BG,"2,8",Hule,2,"5,2",N/A,1.524 x 1500,"EXACT 
+MASTER",EXACT 1500 ML,Indirecto o incidental,FSC,,72 Hrs.," $ 0,641 ", USD ," $ 0,6164 ",USD,CUCHE,,,,,,,,,,,,,
+100,Cuche adh hule / NO APTO PARA FARMACEUTICO,CS43,PL884C,RAFLATAC,RALACOAT NXT FSC / RHC4 / WHITE GLASS C5-FSC,"2,28",Hule,2,"4,76",N/A,1.530 x 762,"EXACT USA 
+MASTER",EXACT 3048 ML,Indirecto o incidental,FSC,,24 Hrs.," $ 0,395 ", USD ," $ 0,3800 ",USD,CUCHE,,,,,,,,,,,,,
+101,Cuche triplex piggyback (Medtronic),CS44,2121P,FEDRIGONI,TRIPLEX COATED / AP904 / WG62/YG60,"2,56",Hule,"1,97","8,25",N/A,1 x 6000,MASTER,,Directo,,,16 Semanas," $ 1,534 ", USD ," $ 1,4470 ",USD,CUCHE MEDTRONIC,,,,,,,,,,,,,
+102,Cuché adhesivo hule,CS45,C10651,FEDRIGONI,COUCHE SEMIGLOSS C1S 80g FSC / H108K / R 2.1 mil,"2,7",Hule,"2,1","5,7",N/A,1.524 x 1500,MASTER,,Indirecto o incidental,FSC,,48 Hrs.," $ 0,522 ", USD ," $ 0,4920 ",USD,CUCHE,,,,,,,,,,,,,
+103,Cuche Raflatac RP51 ,CS47,PL38Q,RAFLATAC,54# Raflacoat FSC/ RP51 /  White Kraft 65,"2,7",Acrilico,"2,4","5,7",N/A,2 x 762,MASTER,,Indirecto o incidental,FSC EN SUPERFICIAL,RECOMENDADO POR PROVEEDOR,4 SEMANAS," $ 0,628 ", USD ," $ 0,5920 ",USD,CUCHE,,,,,,6%,,,,,,,
+104,Cuche 80g adhesivo hule,CS48,PBGG260,GREEN BAY,Papel Couche Semi-gloss 80g / Adhesivo hot melt / Glassine,"2,7",Hule,"2,1","5,5",N/A,1.53 x 1500,"EXACT
+MASTER",EXACT 1500 Y 3000 ML,Indirecto o incidental,,,24 Hrs.," $ 0,404 ", USD ," $ 0,3880 ",USD,CUCHE,,,,,,,,,,,,,
+105,Cuche 90g adhesivo acrílico,CS49,19641M,AVERY,60# SEMI-GLOSS ELITE FSC® /AT20/1.2M PET,"2,9",Acrílico,"1,18","4,73",N/A,1.524 x 6000,MASTER,,Indirecto o incidental,FSC EN SUPERFICIAL,,8 Semanas," $ 0,726 ", USD ," $ 0,6850 ",USD,CUCHE,,,,,,,,,,,,,
+106,Construcción etiqueta cupón con papel cuche + cuche,CU01,-,-,Cuche sin adhesivo (CA24) + cuche con adhesivo (CS27) + adhesivo UV (UV11)  + barniz release (UV10),N/D,N/D,N/D,N/D,N/A,-,-,MASTRONARDI,-,,,-," $ 0,829 ", USD ,,,CUPON CU01,,,,,,100%,,,CONSTRUCCIÓN,,,,
+107,Construcción etiqueta cupón con bopp blanco + bopp blanco,CU02,-,-,Bopp blanco (BB15) + bopp blanco (BB15) + barniz release (UV10),N/D,N/D,N/D,N/D,N/A,-,-,FRESENIUS,-,,,-," $ 1,163 ", USD ,,,CUPON CU02,,,,,,100%,,,CONSTRUCCIÓN,,,,
+108,Construcción etiqueta cupón con papel cuche + pharma,CU03,-,-,Cuche sin adhesivo (CA24) + pharma (PH01) + adhesivo UV (UV11) + barniz release (UV10),N/D,N/D,N/D,N/D,N/A,-,-,MASTRONARDI,-,,,-," $ 1,012 ", USD ,,,CUPON CU03,,,,,,100%,,,CONSTRUCCIÓN,,,,
+109,Construcción etiqueta cupón con bopp blanco + cuche sin adhesivo,CU04,-,-,Bopp blanco (BB09) + cuche sin adhesivo (CA24) + adhesivo UV (UV11) + barniz release (UV10),N/D,N/D,N/D,N/D,N/A,-,-,PLASTICOS IRIS AGUA,-,,,-," $ 0,970 ", USD ,,,CUPON CU04,,,,,,100%,,,CONSTRUCCIÓN,,,,
+110,Construcción etiqueta cupón con bopp blanco delgado + bopp blanco delgado,CU05,-,-,Bopp blanco (PF01) + barniz release (UV10) + bopp blanco (PF01),N/D,N/D,N/D,N/D,N/A,-,-,LAB. PISA,-,,,-," $ 2,046 ", USD ,,,CUPON CU05,,,,,,100%,,,CONSTRUCCIÓN,,,,
+111,Construcción etiqueta cupón con bopp blanco + bopp metalizado,CU06,-,-,Bopp blanco (BB06) + barniz release (UV10) + bopp metalizado (BM08),N/D,N/D,N/D,N/D,N/A,-,-,BRULUAGSA,-,,,-," $ 1,464 ", USD ,,,CUPON CU05,,,,,,100%,,,CONSTRUCCIÓN,,,,
+112,Térmico Directo Recubierto Genérico,DI01,,,"TCDT1702 (MACTAC), 291SV (AVERY)",,,,,,,EXACT,,Verificar por clave,,,," $ 0,673 ", USD ,,,TERMICO ,,,,,,100%,, PRECIO PARA COTIZAR =+4% ,GENERICO,,,,
+113,Termico Recubierto 300HD,DI02,,,"TCDT1702 (MACTAC), 291SV (AVERY)",,,,,,,"EXACT 
+MASTER",,Verificar por clave,,,," $ 0,673 ", USD ,,,TERMICO ,,,,,,100%,,,GENERICO,,,,
+114,Térmico Recubierto Raflatac,DI05,DT03L,RAFLATAC,Direct Thermal Top FSC / RP51 / 40White Kraft,"3,2",Acrílico,"2,4","6,1",N/A,1 x 1000,MASTER,EXACT 1524 ML,Indirecto o incidental,FSC EN SUPERFICIAL,,48 Hrs.," $ 0,676 ", USD ," $ 0,650 ",USD,TERMICO ,,,,,,4%,,,PA1,,,,
+115,Termico Recubierto,DI06,291SV,AVERY,Direct-Therm 200GP FSC / S2005 / 40#BG,"3,2",Hule,2,"5,7",N/A,1.524 x 1524,"EXACT 
+MASTER",EXACT 1500 ML,No Especificado,FSC,,72 Hrs.," $ 0,673 ", USD ," $ 0,6475 ",USD,TERMICO ,,,,,,4%,,,PA2,,,,
+116,Termico piggyback,DI14,UM15V,RAFLATAC,Direct Thermal Top / RP51 / 40# White Kraft / RP51 / 40# White Kraft,"3,2",Acrílico,2.4 + 2.4,9,N/A,2 x 1524,MASTER,,Indirecto o incidental,FSC EN SUPERFICIAL,,8 a 10 Semanas," $ 1,531 ", USD ," $ 1,418 ",USD,TERMICO ,,,,,,7%,,,PA1,,,,
+117,Térmico adhesivo removible,DI17,18558,AVERY,Direct-Therm 200GP FSC / R5195 / 40#CK,"3,2",Acrílico,"2,4","6,47",N/A,1.98 x 762,"EXACT USA 
+MASTER",EXACT USA 2286 Y 3048 ML,Indirecto o incidental,FSC,,9 Semanas," $ 0,957 ", USD ," $ 0,9116 ",USD,TERMICO ,,,,,,5%,,,PA1,,,,
+118,Térmico adhesivo removible,DI19,DT05N,RAFLATAC,Direct Thermal Top FSC / RR22 / 40# White Kraft,"3,3",Hule,"2,4","6,2",N/A,2 x 762,"EXACT USA 
+MASTER",EXACT USA 3048 ML,Indirecto o incidental,FSC EN SUPERFICIAL,,3 Semanas," $ 1,209 ", USD ," $ 1,1510 ",USD,TERMICO ,,,,,,5%,,,PA2,,,,
+119,Termico Directo IFCO,DI21,DTM0902,MACtac,DIRECT THERMAL PAPER TOPCOATED / LT-20 / 40#CK,"2,95",Acrílico,"2,4","6,05",N/A,1.98 x 1524,MASTER,,Indirecto o incidental,,,4 Semanas," $ 1,015 ", USD ," $ 0,940 ",USD,TERMICO ,,,,,,7%,,,PA1,,,,
+120,Térmico Recubierto,DI26,TCDT1702,MACtac,DIRECT THERMAL PAPER / HYBRID / 40#SCK,"3,15",Hule,"2,4","6,25",N/A,1.98 x 762,"EXACT 
+MASTER",EXACT 1500 ML,Indirecto o incidental,,,24 Hrs.," $ 0,735 ", USD ," $ 0,700 ",USD,TERMICO ,,,,,,5%,,,PA2,,,,
+121,Termico directo para llantas,DI27,11203,AVERY,Direct-Therm 200HD FSC / TL2 / 40#SCK,"3,2",Hule,"2,5","7,7",N/A,0.762 x 762,MASTER,Largo Maximo 762 m,Indirecto o incidental,FSC,,9 Semanas," $ 2,437 ", USD ," $ 2,2994 ",USD,TERMICO ,,,,,,6%,,,PA2,,,,
+122,Termico Recubierto,DI34,291SV,AVERY,Direct-Therm 200GP FSC / S2005 / 40#BG,"3,2",Hule,2,"5,7",N/A,1.32 X 1524,"EXACT 
+MASTER",EXACT 1500 ML,No Especificado,FSC,,72 Hrs.," $ 0,673 ", USD ," $ 0,6475 ",USD,TERMICO ,,,,,,,,,PA2,,,,
+123,Térmico Directo No Recubierto Genérico,DI04,,,"290SV (AVERY), C12231 (FEDRIGONI),  DT265S (RAFLATAC) , DT347C (RAFLATAC)",,,,,,,EXACT,Aplicaciones en seco. No contacto con humedad,Verificar por clave,,,," $ 0,395 ",USD,,,TERMICO ,,,,,,100%,, PRECIO PARA COTIZAR $0.47 usd autorizado por ing. Ernesto  04-04-2022 ,GENERICO,,,,
+124,Térmico Directo No Recubierto Genérico,DI13,,,"290SV (AVERY), C12231 (FEDRIGONI),  DT265S (RAFLATAC) , DT347C (RAFLATAC)",,,,,,,EXACT,Aplicaciones en seco. No contacto con humedad,Verificar por clave,,,," $ 0,395 ",USD,,,TERMICO ,,,,,,100%,, PRECIO PARA COTIZAR $0.47 usd autorizado por ing. Ernesto  04-04-2022 ,GENERICO,,,,
+125,Térmico NO recubierto,DI11,DT01J,RAFLATAC,Direct Thermal Eco / RP51 / 40#White Kraft,"3,2",Acrílico,"2,4","6,1",N/A,1 x 1000,"EXACT 
+MASTER",EXACT 1524 ML,Indirecto o incidental,,,4 Semanas," $ 0,782 ", USD ," $ 0,745 ",USD,TERMICO ,,,,,,5%,,,PA1,,,,
+126,Térmico NO recubierto,DI12,7401P,FEDRIGONI,Thermal Eco / AP904 Plus / SK60,"3,2",Acrílico,"2,2","6,2",N/A,1.50 x 1500,MASTER,,Indirecto o incidental,,,48 Hrs.," $ 0,549 ", USD ," $ 0,518 ",USD,TERMICO ,,,,,,6%,,,PA1,,,,
+127,Térmico NO recubierto Adhesivo removible,DI23,DT42D,RAFLATAC,Direct Thermal eco / RR22 / 40#White Kraft,"3,2",Hule,"2,4","6,1",N/A,2 x 762,"EXACT USA 
+MASTER","EXACT USA 3048 ML 
+Minimo 930m2",Indirecto o incidental,,,3 Semanas," $ 0,746 ", USD ," $ 0,7100 ",USD,TERMICO ,,,,,,5%,,,PA2,,,,
+128,Térmico NO recubierto,DI28,290SV,AVERY,Direct-Therm GP FSC / S2005 / 40 # BG,"2,95",Hule,2,"5,55",N/A,1.524 x 762,"EXACT 
+MASTER",EXACT 1500 Y 3000 ML,Indirecto o incidental,,,24 Hrs.," $ 0,395 ", USD ," $ 0,3800 ",USD,TERMICO ,,,,,,4%,,,PA2,,,,
+129,Termico NO recubierto con adhesivo hule,DI30,DT265S,RAFLATAC,DIRECT THERMAL ECO NXT FSC / RH9X / 2.1 mil WHITE GLASSINE-FSC,"2,9",Hule,"2,1","5,6",N/A,2 x 762,"EXACT 
+MASTER",EXACT 3048 ML,Indirecto o incidental,FSC,,5 Semanas," $ 0,551 ", USD ," $ 0,5200 ",USD,TERMICO ,,,,,,6%,,,PA2,,,,
+130,Termico no recubierto con adhesivo acrilico,DI31,DTNN2602,MACtac,DIRECT THERMAL PAPER NTC / 640AT / 40# SCK,"3,2",Acrilico,"2,4","6,3",N/A,1.524 x 762,"EXACT 
+MASTER",EXACT 1524 ML,Indirecto o incidental,,,24 Horas," $ 0,557 ", USD ," $ 0,5300 ",USD,TERMICO ,,,,,,5%,,,,,,,
+131,Termico NO recubierto con adhesivo hule (Antes 21152P),DI32,C12231,FEDRIGONI,TERMICO DIRECTO 70 G / H108L 16 / SCK 59G,"3,1",Hule,"2,1","5,7",N/A,1.524 X 1524,MASTER,EXACT 3000 ML,Indirecto o incidental,,,48 Hrs.," $ 0,417 ", USD ," $ 0,4010 ",USD,TERMICO ,,,,,,,,,,,,,
+132,Térmico NO recubierto,DI33,290SV,AVERY,Direct-Therm GP FSC / S2005 / 40 # BG,"2,95",Hule,2,"5,55",N/A,1.524 x 762,"EXACT 
+MASTER",EXACT 1500 Y 3000 ML,Indirecto o incidental,,,24 Hrs.," $ 0,395 ", USD ," $ 0,3800 ",USD,TERMICO ,,,,,,,,,,,,,
+133,Papel térmico sin adhesivo,DI35,12000,FEDRIGONI,Papel térmico directo 70g,"3,1",N/A,N/A,"3,1",N/A,1.530 X 1524,MASTER,,No aplica,,,72 Hrs," $ 0,242 ", USD ," $ 0,2280 ",USD,TERMICO SIN ADHESIVO,,,,,,,,,,,,,
+134,Térmico para maletas,DI36,DT190P,RAFLATAC,LUGGAGE TAG ECO 300 PEFC / RP36 / WHITE GLASSINE 65,"5,04",Acrílico,"2,2","7,79",N/A,2 x 1500,MASTER,STOCK LIMITADO,No Especificado,,,48 Hrs.," $ 0,853 ", USD ," $ 0,8200 ",USD,TERMICO MALETAS,,,,,,,,,,,,,
+135,Térmico NO recubierto,DI37,DT347C,RAFLATAC,DIRECT THERMAL ECO-FSC / RH9S / WHITE GLASS C5-FSC,"3,11",Hule,2,"5,63",N/A,1.53 x 1524,"EXACT
+MASTER",EXACT 1500 Y 3000 ML,No Especificado,,,24 Hrs.," $ 0,395 ", USD ," $ 0,3800 ",USD,TERMICO,,,,,,,,,,,,,
+136,Térmico NO recubierto,DI38,PDT4057,FEDRIGONI,THERMAL ECO FSC™ / FH24 / WG58,"2,9",Hule,2,"5,6",N/A,1.50 x 1500,MASTER,,Indirecto o incidental,FSC SUPERFICIAL,,1 Semana," $ 0,673 ", USD ," $ 0,6470 ",USD,TERMICO,,,,,,,,,,,,,
+137,Material para aplicación Dental,DN01,AP1406N,AMERICAN P,Dental X-Ray Clear (AP1406N),"4,3",N/A,N/A,"4,3",N/A,Ancho requerido,"MINIMO 21,000 M2",,Directo,,,9 a 10 Semanas," $ 1,293 ", USD ," $ 1,1543 ",USD,DENTAL X-RAY,,,,,,11%,, $0.92345  COSTO PUESTO EN USA +25% GTOS  ,RR1,,,,
+138,Etiqueta Hueca sin acabado,EH01,-,-,Cuche autoadherible CS28 +Bopp s/adhesivo LA11 + Adhesivo de laminación,N/D,N/D,N/D,N/D,N/A,-,-,MASTRONARDI,-,,,-," $ 0,497 ", USD ,,USD,ETIQUETA HUECA EH01,,,,,,100%,," SE CORRIGE COSTO, CONSIDERANDO COSTO PARA COTIZAR DE CS28 + LA11. REV 128 ",,,,,
+139,Fluorescente rojo,FL04,AJR9002,MACtac,Fluorescent Red / 710VHP / 40# SCK,"3,8",Hule,"2,4","6,9",N/A,0.66 x 762,MASTER,,Indirecto o incidental,,,5 días," $ 1,404 ", USD ," $ 1,300 ", USD ,FLUORESCENTE ROJO,,,,,,7%,,,PA2,,,,
+140,Iridiscent,FP02,02391,AVERY,Fasprism Iridiscent / S246 / 40# SCK,"3,4",Hule,"2,44","6,6",N/A,1.524 x 762,"EXACT USA 
+MASTER",EXACT USA 1524 ML,Indirecto o incidental,,,9 Semanas," $ 3,235 ", USD ," $ 3,0810 ", USD ,IRIDISCENT,,,,,,5%,,,PA2,,,,
+141,Bopp holográfico (arcoiris),FP06,SP706R,RAFLATAC,HOLO RAINBOW PP SHIMLESS / RP37 / 40# WHITE KRAFT,2,Acrílico,"2,4",5,TOP COATED,1 X 762,MASTER,,Indirecto o incidental,FSC EN RESPALDO,APROBADO,4 Semanas," $ 2,018 ", USD ," $ 1,904 ",USD,BOPP HOLOGRAFICO,,,,,,6%,, se ingresa el 13-04-2020 ,PP1,RECOMENDADO,,,
+142,"Poliolefina Transparente, respaldo pet TC",GC01,77381,AVERY,Global Co-Ex Clear TC / S692N / Pet30,"2,5",Acrílico,"1,2","4,3",TOP COATED,1.524 x 1524,"EXACT 
+MASTER",EXACT 1500 ML,Indirecto o incidental,APR para polietileno ,,72 Hrs.," $ 0,944 ", USD ," $ 0,9080 ",USD,POLIOLEFINA TRANS,,,,,,4%,,, GC1 ,,,,
+143,"Poliolefina Blanca, respaldo pet",GC02,77382,AVERY,Global Co-Ex White TC / S692N / Pet30,"2,5",Acrílico,"1,2","4,3",TOP COATED,1.524 x 1524,"EXACT 
+MASTER",EXACT 1500 ML,Indirecto o incidental,APR para polietileno ,,72 Hrs.," $ 0,913 ", USD ," $ 0,8780 ",USD,POLIOLEFINA BCA,,,,,,4%,,, GC1 ,,,,
+144,"Poliolefina Transparente, respaldo pet NTC
+SOLO SE FABRICA EN MAQUINA NILPETER",GC04,77178,AVERY,Global Co-Ex Clear NTC / S692N / Pet30,"2,5",Acrílico,"1,18","4,48",CORONA,1.524 x 762,MASTER,SOLO P/MAQ NILPETER,Indirecto o incidental,APR para polietileno ,,24 Hrs.," $ 0,869 ", USD ," $ 0,8200 ",USD,POLIOLEFINA TRANS,,,,,,6%,,, GC1 ,,,,
+145,"Poliolefina metalizada, respaldo pet",GC05,77342,AVERY,Metallized Crystal FasClear / S692N / 1.2 Mil Polyester,"2,5",Acrílico,"1,18","4,58",TOP COATED,1.524 x 3048,MASTER,,Indirecto o incidental,,,8 Semanas," $ 1,590 ", USD ," $ 1,5000 ",USD,POLIOLEFINA METAL,,,,,,6%,,, GC1 ,,,,
+146,"Poliolefina blanca, respado pet",GC06,77980,AVERY,3 Mil White MDO / S692N / 1.2 Mil Polyester,3,Acrílico,"1,18","4,98",CORONA,1.524 x 1524,MASTER,STOCK DEDICADO,Indirecto o incidental,APR para polietileno ,,24 Hrs.," $ 0,890 ", USD ," $ 0,8400 ",USD,POLIOLEFINA BCA,,,,,,6%,,, GC1 ,,,,
+147,"Poliolefina Blanca, respaldo pet NTC SOLO SE FABRICA EN MAQUINA NILPETER",GC07,77179,AVERY,2.5 MIL GLOBAL CO-EX WHITE NTC / S692N / 1.2 MIL POLYESTER,"2,5",Acrílico,"1,16","4,46",N/A,1.524 x 762,"EXACT USA 
+MASTER","EXACT USA 3000 ML 
+SOLO P/MAQ NILPETER",Indirecto o incidental,APR para polietileno ,,24 Hrs.," $ 0,790 ", USD ," $ 0,7523 ",USD,POLIOLEFINA BCA,,,,,,5%,,, GC1 ,,,,
+148,Polipropileno flexible,GC08,SY110H,RAFLATAC,RAFLEX PLUS WHITE TC 50 / RP37 / PET30,2,Acrílico,"1,18","3,07",N/A,2 x 1500,"EXACT
+MASTER",EXACT 3048 ML,No Especificado,,APROBADO,48 Hrs.," $ 0,844 ", USD ," $ 0,8120 ",USD,POLIPRO FLEXIBLE,,,,,,,,,,,,,
+149,Foil plata p/ estampado en calor en papeles texturizados,HS05,ALUFIN MTC,KURZ,Foil Alufin MTC para hot stamping,"0,5",N/A,N/A,"0,5",N/A,0.61 x 1525,MASTER,,No aplica,,,"1 Semanas c/stock 
+6-8 Semanas s/stock"," $ 0,523 ", USD ," $ 0,4839 ",USD,FOIL ESTAMPADO PLATA,,,,,,7%,,, NO APLICA ,,,,
+150,Foil oro p/ estampado en calor en papeles lisos ,HS09,LX-MTS-220,KURZ,Foil Luxor MTS 220 Hot Stamping,"0,5",N/A,N/A,"0,5",N/A,0.61 x 1525,MASTER,,No aplica,,,1 Semana," $ 0,522 ", USD ," $ 0,4832 ",USD,FOIL ESTAMPADO ORO,,,,,,7%,,, NO APLICA ,,,,
+151,Foil oro p/ estampado en calor en papeles texturizados,HS10,LX-MTC-220,KURZ,Foil Luxor MTC 220 Oro Hot Stamping,"0,5",N/A,N/A,"0,5",N/A,0.61 x 1525,MASTER,,No aplica,,,1 Semana," $ 0,523 ", USD ," $ 0,4839 ",USD,FOIL ESTAMPADO ORO,,,,,,7%,,, NO APLICA ,,,,
+152,Foil plata satinado p/ estampado en calor en papeles lisos ,HS11,AL-STGL-MTS,KURZ,Foil Alufin Satin Gloss MTS Hot Stamping,"0,5",N/A,N/A,"0,5",N/A,0.61 x 1525,MASTER,,No aplica,,,1 Semana," $ 0,747 ", USD ," $ 0,6919 ",USD,FOIL ESTAMPADO PLATA,,,,,,7%,,,,,,,
+153,Polimida (kapton),KP04,,,"FLX062313 (FLEXCON), FLX050678 (FLEXCON)",,,,,,,"MASTER 
+CINTAS PRE-CORTADAS",,No Especificado,,,," $ 23,585 ", USD ,,,POLIMIDA KAPTON,,,,,,100%,,,NO ESPECIFICADO,,,,
+154,Polimida (kapton),KP05,FLX062313,FLEXCON,THERMLfilm HT 9000 2 MIL WHITE PRINTABLE POLYIMIDE/ HI-PERF ADH/ 50 WHITE GLASS LINER,"2,6",Solvente Acrílico,"2,7","6,75",TOP COATED,1.524 X 508,"MASTER 
+CINTAS PRE-CORTADAS","0.0825 X 500M   
+0.1397 X 500M
+
+0.0920 X 500M",No Especificado,,,"4 Semanas
+
+6 a 8 Semanas"," $ 23,585 ", USD ," $ 21,8376 ",USD,POLIMIDA KAPTON,,,,,,7%,,,NO ESPECIFICADO,,,,
+155,Polimida (kapton),KP06,FLX050678,FLEXCON,"THERMLfilm HT PI2W50G 2 MIL WHITE PRINTABLE POLYIMIDE FILM, HI-PERF PERM ADH, 50 WHITE GLASSINE LNR","2,6",Solvente Acrílico,"2,7","6,7",TOP COATED,1.524 x 508,"MASTER 
+CINTAS PRE-CORTADAS","0.0825 X 500M   
+0.1397 X 500M
+
+0.0920 X 500M",No Especificado,,,"4 Semanas
+
+6 a 8 Semanas"," $ 23,585 ", USD ," $ 21,8376 ",USD,POLIMIDA KAPTON,,,,,,7%,,,NO ESPECIFICADO,,,,
+156,Polipropileno brillante para laminar genérico,LA01,,,"Polipropileno brillante para laminar L105 (OVER), 410 (MILLENIUM)",,,,,,,EXACT,,Verificar por clave,,,," $ 0,120 ",USD,,,LAMINADO,,,,,,100%,," PRECIO $1.97 MXP/M2, PRECIO CON DÓLAR A $18.50 ",GENERICO,,,,
+157,Polipropileno mate para laminar genérico,LA02,,,"Polipropileno mate para laminar (CAL20MATE, M100, M150)",,,,,,,EXACT,,Verificar por clave,,,," $ 0,150 ",USD,,,LAMINADO MATE,,,,,,100%,,,GENERICO,,,,
+158,Polipropileno imprimible para laminar,LA03,,,Polipropileno imprimible para laminar (L130),,,,,,,MASTER,,Verificar por clave,,,," $ 0,209 ",,,,LAMINADO IMPRIMIBLE ,,,,,,100%,,,GENERICO,,,,
+159,Cintilla Canela para etiqueta ripstrip,LA04,T1016,OVERLAMINATED,Cinta Canela de Polipropileno T-1016,1,Acrílico,N/A,"1,6",,13.5 mm x 1524 m,,,No Especificado,,,3 Semanas," $ 0,347 ", USD ," $ 6,430 ",M.N.,CINTILLA CANELA,,,,,,-1752%,,, NO ESPECIFICADO ,,,,
+160,Polipropileno brillante para laminar 1.05Mil,LA05,L105,OVERLAMINATED,Polipropileno brillante para laminar,"0,7",Acrílico,N/A,"0,95",,Ancho requerido,EXACT,"EXACT 1524, 3048 Y 4500 ML",Indirecto o incidental,,,24 Hrs.," $ 0,120 ", USD ," $ 2,300 ",M.N.,LAMINADO,,,,,,-1823%,,,PP3,,,,
+161,Polipropileno brillante para laminar 1.3Mil,LA10,L130,OVERLAMINATED,Polipropileno brillante para laminar (L130),1,Acrílico,N/A,1,,Ancho requerido,EXACT,EXACT 1524 ML,Indirecto o incidental,,,24 Hrs.," $ 0,209 ", USD ," $ 4,015 ",M.N.,LAMINADO IMP / 130,,,,,,-1823%,,,PP3,,,,
+162,Laminado UV Brillante 20 micras (Rendimiento 0.01813),LA11,CAL20NATU,OVERLAMINATED,Polipropileno brillante sin adhesivo para laminar 20micras (18.13 g/m2),"0,78",N/A,N/A,"0,78",,Ancho requerido,EXACT,EXACT 1524 y 3048 ML,Directo,,,72 Hrs.," $ 0,096 ", USD ," $ 1,048 ",M.N.,LAMINADO UV,"18,13",g/m2,"57,8",mxp,"1,047914",-986%,," Precio $87.33 USD /kg + 0.05 POR ADHESIVO UV  Rev.86 Marzo-2021
+ ",PP0,,,,
+163,Polipropileno brillante para laminar imprimible por transferencia térmica,LA12,,," 095T (OVER), 410T (MILLENIUM)",,,,,,,EXACT,,Verificar por clave,,,," $ 0,132 ",,,,LAMINADO IMPRIMIBLE ,,,,,,100%,,,GENERICO,,,,
+164,Polipropileno brillante para laminar imprimible por transferencia térmica,LA13,095T,OVERLAMINATED,Laminación Imprimible por transferencia térmica,"0,7",Acrílico,N/A,"0,95",,Ancho requerido x 3000m,EXACT,,Directo,,,24 Hrs.," $ 0,132 ", USD ," $ 2,530 ",M.N.,LAMINADO IMP /095T,,,,,,-1823%,,,PP3,,,,
+165,Polipropileno mate para laminar,LA14,M100,OVERLAMINATED,Polipropileno mate para laminar,"0,7",Acrílico,N/A,"0,95",,Ancho requerido,EXACT,EXACT 1524 ML,Indirecto o incidental,,,24 Hrs.," $ 0,249 ", USD ," $ 4,780 ",M.N.,LAMINADO MATE,,,,,,-1823%,,,PP3,,,,
+166,Polipropileno mate para laminar (1206),LA15,M150,OVERLAMINATED,Polipropileno mate para laminar,1,Acrílico,N/A,"1,4",,Ancho requerido,EXACT,EXACT 1524 ML,Indirecto o incidental,,,24 Hrs.," $ 0,335 ", USD ," $ 6,440 ",M.N.,LAMINADO MATE,,,,,,-1823%,,,PP3,,,,
+167,Polipropileno UV mate 20 micras (Rendimiento 0.01813),LA16,CAL20MATE,OVERLAMINATED,Polipropileno mate sin adhesivo para laminar 20micras  (18.13 g/m2),"0,78",N/A,N/A,"0,78",,Ancho requerido,EXACT,EXACT 1524 Y 3048 ML,Directo,,,72 Hrs.," $ 0,150 ", USD ," $ 0,096 ",USD,LAMINADO UV MATE,"18,13",g/m2,"5,3",usd,"0,096089",36%,, PRECIO EN KG $5.12 USD/KG +.05 USD DE ADHESIVO ,PP0,,,,
+168,Laminado UV brillante 35 micras (Rendimiento 0.03172),LA17,CAL35NATU,OVERLAMINATED,Polipropileno brillante sin adhesivo para laminar 35micras  (31.72 g/m2),"1,378",N/A,N/A,"1,378",,Ancho requerido,EXACT,EXACT 3000 ML,Indirecto o incidental,,,72 Hrs.," $ 0,152 ", USD ," $ 1,957 ",M.N.,LAMINADO UV / 35M,"31,72",g/m2,"61,7",mxp,"1,957124",-1190%,, PRECIO $87.33 MXP/kg +0.05 usd /m2 de ADHESIVO MAR-2021 REV 86 ,PP0,,,,
+169,Polipropileno brillante para laminar imprimible por transferencia térmica,LA18,410T,MILLENIUM,Pelicula transparente de polipropileno imprimible,1,Acrílico,N/A,"1,3",,Checar existencias,EXACT,,Directo,,,1 Semana," $ 0,208 ", USD ," $ 0,200 ",USD,LAMINADO IMPRIMIBLE ,,,,,,4%,,,PP3,,,,
+170,Laminado de poliester sin respaldo,LA19,P150,OVERLAMINATED,Laminación poliester transparente de proposito general,"0,92",Acrílico,N/A,"1,3",,Ancho requerido,EXACT,EXACT 1524 ML,Indirecto o incidental,,,24 Hrs.," $ 1,319 ", USD ," $ 25,370 ",M.N.,LAMINADO DE POLIESTER,,,,,,-1823%,,,PET2,,,,
+171,Polipropileno brillante para laminar,LA20,410,MILLENIUM,Pelicula transparente de polipropileno,"0,75",Acrílico,N/A,"1,05",,Ancho requerido,EXACT,EXACT 3000 ML,Indirecto o incidental,,,1 Semana," $ 0,125 ", USD ," $ 0,120 ",USD,LAMINADO,,,,,,4%,,,PP3,,,,
+172,Papel para laser y tt,LC02,ED11S,RAFLATAC,50# Data / RP51 / 3.2Mil White Kraft,4,Acrílico,"3,2","7,6",N/A,2 x 1000,"EXACT 
+MASTER",EXACT 1524 Y 3048 ML,Indirecto o incidental,,,48 Hrs.," $ 0,591 ", USD ," $ 0,568 ",USD,PAPEL LASER,,,,,,4%,,,PA1,,,,
+173,Metalizado Plata Genérico,MT01,,,"J170SV (AVERY) MS9007 (MACTAC), 8455P (FEDRIGONI)",,,,,,,,,Verificar por clave,,,," $ 0,923 ", USD ,,,PAPEL METALIZADO,,,,,,100%,,,GENERICO,,,,
+174,Metalizado Plata D170,MT02,J170SV,AVERY,Metalizado Plata 83g FSC / S2005 / 40#BG,"2,6",Hule,2,"5,2",N/A,1.32 x 1500,"EXACT 
+MASTER",EXACT 1500 Y 3000 ML,Indirecto o incidental,FSC,RECHAZADO,24 Hrs.," $ 0,923 ", USD ," $ 0,8873 ",USD,PAPEL METALIZADO,,,,,,4%,,,PA2,,,,
+175,Metalizado Plata,MT03,PL70A,RAFLATAC,Silvervac / RP51 / 40# white kraft,"2,6",Acrílico,"2,4","5,5",N/A,1 x 762,"EXACT 
+MASTER",EXACT 1524 ML,Indirecto o incidental,,RECHAZADO,24 Hrs.," $ 1,127 ", USD ," $ 1,084 ",USD,PAPEL METALIZADO,,,,,,4%,,,PA1,,,,
+176,Metalizado Plata con respaldo Pet,MT07,53381M,AVERY,Metalizado Bright Silver FSC /AT20/1.2 Mil PET,"2,6",Acrílico,"1,2","4,4",TOP COATED,1.524 x 1524,"EXACT 
+MASTER",EXACT 3000 ML,Indirecto o incidental,FSC,,72 Hrs.," $ 0,999 ", USD ," $ 0,9606 ",USD,PAPEL METALIZADO,,,,,,4%,,,PA3,,,,
+177,Metalizado Plata ,MT08,MS9007,MACtac,Bright Silver Metalized Paper / 710VHP / 40#SCK (SMP9002),"2,8",Hule,"2,4","5,9",N/A,1.98 X 1524,"EXACT 
+MASTER",EXACT 1524 ML,Indirecto o incidental,,,24 Hrs.," $ 1,040 ", USD ," $ 0,9900 ",USD,PAPEL METALIZADO,,,,,,5%,,,PA2,,,,
+178,Metalizado Plata,MT09,8455P,FEDRIGONI,METALVAC 84 GRS SILVER /RP3000 /WG62,"2,4",Hule,"2,2","5,4",N/A,2 x 1500,MASTER,,Directo,,RECHAZADO,48 Hrs.," $ 1,038 ", USD ," $ 0,9790 ",USD,PAPEL METALIZADO,,,,,,6%,,,PA2,,,,
+179,Metalizado Plata,MT10,56MSW72040SC,GREEN BAY,SIL MET PAPER WS / 720 ALL TEMP ADHESIVE / 40 SC LINER,"2,8",Acrílico,"2,4","5,8",N/A,1.524 X 1524,MASTER,,Indirecto o incidental,,APROBADO,48 Hrs.," $ 1,423 ", USD ," $ 1,3420 ",USD,PAPEL METALIZADO,,,,,,6%,,,PA1,RECOMENDADO,,,
+180,Metalizado Plata,MT11,J170SV,AVERY,Metalizado Plata 83g FSC / S2005 / 40#BG,"2,6",Hule,2,"5,2",N/A,1.32 x 1500,"EXACT 
+MASTER",EXACT 1500 Y 3000 ML,Indirecto o incidental,FSC,RECHAZADO,24 Hrs.," $ 0,923 ", USD ," $ 0,8873 ",USD,PAPEL METALIZADO,,,,,,,,,,,,,
+181,Metalizado Plata con respaldo Pet,MT12,PL185Z,RAFLATAC,Silvervac-FSC / RP48AT / 1.2 mil PET PCR 50,"2,6",Acrílico,"1,2","4,7",N/A,2 x 1500,"EXACT
+MASTER
+CINTAS","EXACT 3000 ML
+33 X 1524",Indirecto o incidental,"FSC SUPERFICIAL
+PCR LINER",RECOMENDADO POR PROVEEDOR,48 Hrs.," $ 0,967 ", USD ," $ 0,9300 ",USD,METALIZADO,,,,,,,,,,,,,
+182,Papel natural kraft,NL02,G60GM75840SC,GREEN BAY,66# Natural Kraft / 758M Permanent Adhesive / 40SC Liner,5,Acrilico,"2,4","8,2",N/A,1.524 x 1524,MASTER,,No Especificado,,,6 Semanas," $ 1,166 ", USD ," $ 1,1000 ",USD,NATURAL KRAFT,,,,,,,,,,,,,
+183,Papel natural kraft,NL03,B5558,AVERY,Natural Label TMFSCr / SOX3 / 40#SCK,"5,5",Acrílico,"2,36","8,66",N/A,1.981 x 3048,MASTER,,No Especificado,,,9 Semanas," $ 0,948 ", USD ," $ 0,8946 ",USD,NATURAL KRAFT,,,,,,,,,,,,,
+184,Papel natural kraft,NL04,SP449X,RAFLATAC,Dark Brown Kraft / RH25 / 40# White Kraft-FSC,"5,5",Hule,"2,4","8,7",N/A,0.995 x 1524,"EXACT USA
+MASTER",EXACT 1524 ML,Indirecto o incidental,,,6 semanas," $ 1,039 ", USD ," $ 0,9800 ",USD,NATURAL KRAFT,,,,,,,,,,,,,
+185,Nylon con adhesivo,NY01,NT608A,KUMATRADE,Nylon adhesivo blanco NT608A,,Acrílico,,,RESINA D POLIMIDA,.660 x 750,MASTER,,No aplica,,,1 semana," $ 2,326 ", USD ," $ 2,194 ",USD,NYLON CON ADHESIVO,,,,,,,,,,,,,
+186,Nylon sin adhesivo para TT,NY02,NT690,KUMATRADE,NYLON SIN ADHESIVO ,4.3-4.9,N/A,N/A,4.3-4.9,No Especificado,Ancho requerido,EXACT,EXACT 800ML,No Especificado,,,72 Hrs.," $ 0,710 ", USD ," $ 0,6700 ",USD,NYLON,,,,,,,,,,,,,
+187,Poliester blanco,PB01,72828,AVERY,"2 Mil White Print-Treated Polyester/S333
+/50#SCK ABC",2,Acrílico,"3,2",6,PRINT TREATED,1.524 x 1524,"EXACT 
+MASTER",EXACT 762 ML,No Especificado,,,72 Hrs.," $ 3,550 ", USD ," $ 3,4132 ",USD,POLIESTER BCO,,,,,,4%,,,NO ESPECIFICADO,,,,
+188,Poliester blanco,PB05,78385,AVERY,2 MIL WHITE POLYESTER TC / S8001 / 50#SCK,2,Acrílico,"3,2",6,TOP COATED,1.371 x 508,"EXACT 
+MASTER",EXACT 508 ML,No Especificado,,,72 Hrs.," $ 2,615 ", USD ," $ 2,5141 ",USD,POLIESTER BCO,,,,,,4%,,,NO ESPECIFICADO,,,,
+189,Película térmica,PD04,,,"SY36W (RAFLATAC), 140LES (RICOH)",,,,,,,MASTER,,Verificar por clave,,,," $ 1,413 ", USD ,,,PELICULA TERMICA,,,,,,100%,,,GENERICO,,,,
+190,Papel sintético mate,PD06,78401,AVERY,3 Mil Mate White Synthetic Paper / S8001 / 50#SCK,3,Acrílico,"3,2","7,2",TOP COATED,1.371 x 762,"EXACT USA 
+MASTER",EXACT USA 1524 ML,Indirecto o incidental,,,"9 Semanas 
+72 Hrs."," $ 2,163 ", USD ," $ 2,0600 ",USD,PAPEL SINTETICO MATE,,,,,,5%,,,PP1,,,,
+191,Película térmica 3.2MIl,PD09,SY36W,RAFLATAC,3.2Mil Syn-Thermal / RP48AT / 2.4Mil High Density,"3,2",Acrílico,"2,4","6,1",N/A,2 x 762,MASTER,,Indirecto o incidental,,,48 Hrs.," $ 1,413 ", USD ," $ 1,3330 ",USD,PELICULA TERMICA,,,,,,6%,,,PP1,,,,
+192,Película térmica IFCO,PD10,140LESG12,RICOH,Direct Thermal Synthetic Label Stock / G12 / 42#SCK,"4,1",Acrílico,"2,5",7,N/A,1.524 x 1524,MASTER,,Indirecto o incidental,,,4 Semanas," $ 2,257 ", USD ," $ 2,090 ",USD,PELICULA TERMICA,,,,,,7%,,  ($1.0692 + .01 MSI) = $1.67 USD/M2 (AGO2022) + 25% GASTOS IMPO --> $2.09 USD/M2 PUESTO EN PLANTA ,PP1,,,,
+193,Película térmica,PD11,79983M,AVERY,3M BOPP Direct-Therm / AT20 / 40 # BG,"2,9",Acrílico,2,"5,5",N/A,1.524 x 762,MASTER,,Indirecto o incidental,,,72 Horas," $ 0,868 ", USD ," $ 0,8192 ",USD,PELICULA TERMICA,,,,,,,,,PP1,,,,
+194,Película térmica,PD12,NWS5101,AVERY,75micron Direct-Therm Synthetic Paper TC50 / C2015 / BG40# imp,"2,9",Acrílico,2,"5,5",N/A,1.53 x 3000,MASTER,,Indirecto o incidental,,,3 días," $ 0,816 ", USD ," $ 0,7700 ",USD,PELICULA TERMICA,,,,,,,,,,,,,
+195,Polietileno Blanco (SUST BA1201),PE01,77005,AVERY,PE 85  White TC/ S692N / 40# BG,"3,2",Acrílico,2,"5,8",TOP COATED,1.524 x 1524,"EXACT 
+MASTER",EXACT 1500 ML,Indirecto o incidental,APR para polietileno ,,24 Hrs.," $ 1,096 ", USD ," $ 1,0543 ",USD,POLIETILENO BCO,,,,,,4%,,,PE1,,,,
+196,Polietileno blanco,PE05,2107F,FEDRIGONI,85 PE GLOSS WHITE TC / AP901 / WG62,"3,4",Acrílico,"2,2","6,4",CORONA,1.5 x 1500,MASTER,,Directo,,,48 Hrs.," $ 0,849 ", USD ," $ 0,8010 ",USD,POLIETILENO BCO,,,,,,6%,,,PE1,,,,
+197,Película delgada para fruta,PF01,,,"AN073 (AVERY), 2176F (FEDRIGONI)",,,,,,,MASTER,,Verificar por clave,,,," $ 0,972 ",USD,,,PELICULA PARA FRUTAS,,,,,,100%,,,GENERICO,,,,
+198,Película delgada para fruta,PF02,AN073,AVERY,PP40 Cavit white / S692N / BG40W,"1,57",Acrílico,"2,12","4,41",CORONA,2 x 1500,MASTER,STOCK DEDICADO,Indirecto o incidental,,,48 Hrs.," $ 0,972 ", USD ," $ 0,9169 ",USD,PELICULA PARA FRUTAS,,,,,,6%,,,PP1,,,,
+199,Película delgada para fruta,PF03,2176F,FEDRIGONI,40 PP Cavited Gloss White TC / AP901 / WG62,"1,6",Acrílico,"2,2","4,4",TOP COATED,1.5 x 1500,MASTER,,Indirecto o incidental,,,8 Semanas," $ 0,689 ", USD ," $ 0,6500 ",USD,PELICULA PARA FRUTAS,,,,,,6%,,,PP1,,,,
+200,Película delgada para aguacate,PF07,9998F,FEDRIGONI,30 PP GLOSS WHITE TC8 / AP901 / WG62,"1,2",Acrílico,"2,1","4,1",TOP COATED,1.5 x 1500,MASTER,,Directo,,,48 Hrs.," $ 0,949 ", USD ," $ 0,8950 ",USD,PELICULA PARA FRUTAS,,,,,,6%,,,PP1,,,,
+201,Pharma genérico,PH01,,,"13576P (FEDRIGONI), FMG258 (GREEN B), PH2048B (RAFLATAC)",,,,,,,MASTER,,Verificar por clave,,,," $ 0,572 ", USD ,,,PHARMA,,,,,,100%,, PRECIO PARA COTIZAR AUTORIZADO POR ING. ERNESTO S REV 111 18-07-2023 ,GENERICO,,,,
+202,Pharma genérico,PH04,,,"13576P (FEDRIGONI), FMG258 (GREEN B), PH2048B (RAFLATAC)",,,,,,,MASTER,,Verificar por clave,,,," $ 0,572 ", USD ,,,PHARMA,,,,,,100%,, PRECIO PARA COTIZAR AUTORIZADO POR ING. ERNESTO S REV 111 18-07-2023 ,GENERICO,,,,
+203,Pharma Raflatac,PH05,PL120E,RAFLATAC,Pharmagloss / RP31 / 2.1 mil White Glassine,"2,3",Acrílico,"2,1","4,9",N/A,1 x 1000,MASTER,,Indirecto o incidental,,,4 Semanas," $ 0,856 ", USD ," $ 0,8230 ",USD,PHARMA,,,,,,4%,,,PA1,,,,
+204,Pharma respaldo ultraliner,PH09,53282,AVERY,Pharmaceutical Lighweight Litho / S717P / Ultraliner,"2,8",Acrílico,"2,4",6,N/A,1.511 x 508,MASTER,,Indirecto o incidental,,,9 Semanas," $ 1,761 ", USD ," $ 1,6609 ",USD,PHARMA ULTRALINER,,,,,,6%,,,PA3,,,,
+205,Pharma Green BP,PH10,FMG258,GREEN BAY,Papel farmaceutico 64g / Adhesivo acrílico / Glassine blanco 60g,2,Acrílico,2,"4,7",N/A,1.53 x 1524,MASTER,,Indirecto o incidental,,,"48 Hrs,"," $ 0,572 ", USD ," $ 0,5400 ",USD,PHARMA,,,,,,6%,,,PA1,,,,
+206,Pharma Raflatac,PH11,PL707T,RAFLATAC,PHARMALITE / RP31 / 40# WHITE KRAFT,"2,1",Acrílico,"2,4","5,1",N/A,1 x 762,MASTER,,Indirecto o incidental,,,24 Hrs.," $ 0,774 ", USD ," $ 0,7440 ",USD,PHARMA,,,,,,4%,,,PA1,,,,
+207,Pharma Avery ,PH12,3617,AVERY,PHARMA 60G FSC / S692NP / 40#BG,"2,03",Acrílico,2,"4,6",N/A,1.524 x 762,"EXACT 
+MASTER",EXACT 1500 ML,Indirecto o incidental,,,72 Hrs.," $ 0,676 ", USD ," $ 0,6500 ",USD,PHARMA,,,,,,4%,,,PA1,,,,
+208,Pharma FEDRIGONI (Importado),PH16,13576P,FEDRIGONI,Pharma / AP1009 / WG55,"2,17",Acrilico,"1,93","4,9",N/A,1.5 x 1500,MASTER,,"Directo ISEGA
+Indirecto FDA",,,48 Hrs.," $ 0,572 ", USD ," $ 0,5400 ",USD,PHARMA,,,,,,,,,,,,,
+209,Pharma Raflatac,PH17,PH2048B,RAFLATAC,Pharmalite / RPCH-AM / White Kraft 65,"2,1",Acrilico,"2,4","5,2",N/A,2 x 3000,MASTER,,No Especificado,,,5 Semanas," $ 0,625 ", USD ," $ 0,5900 ",USD,PHARMA,,,,,,,,,,,,,
+210,Platinum,PL01,72967,AVERY,2 Mil Platinum Print-Treated Polyester / S333 / 50#SCK ABC,2,Acrílico,"3,2",6,PRINT TREATED,1.371 x 2178,MASTER,,No Especificado,,,11 Semanas," $ 3,721 ", USD ," $ 3,4450 ",USD,PLATINUM,,,,,,7%,,,NO ESPECIFICADO,,,,
+211,Poliester plata brillante (aprob. UL),PL05,72824,AVERY,2 Mil Bright Chrome Polyester TC / S333 / 50#SCKABC,2,Acrílico,"3,2",6,TOP COATED,1.524 x 762,"EXACT USA 
+MASTER",EXACT USA 762 ML,No Especificado,,,9 Semanas," $ 4,046 ", USD ," $ 3,8531 ",USD,POLIESTER PLATA,,,,,,5%,,,NO ESPECIFICADO,,,,
+212,"Poliester plata mate
+Alternativa de 72967 (PL01)",PL06,78387,AVERY,2Mil Matte Chrome Polyester TC / S8001 / 50#SCK,2,Acrílico,"3,2",6,TOP COATED,1.371 X 508,"EXACT 
+MASTER",EXACT 508 ML,No Especificado,,,72 Hrs.," $ 2,804 ", USD ," $ 2,6963 ",USD,POLIESTER PLATA MATE,,,,,,4%,,,NO ESPECIFICADO,,,,
+213,"Poliester plata mate
+Alternativa de 72967 (PL01)",PL07,72826,AVERY,2Mil Matte Chrome Polyester TC / S333 / 50#SCK ABC,2,Acrílico,"3,2",6,TOP COATED,1.524 x 762,"EXACT 
+MASTER",EXACT 762 ML,No Especificado,,,72 Hrs.," $ 3,294 ", USD ," $ 3,1675 ",USD,POLIESTER PLATA MATE,,,,,,4%,,,NO ESPECIFICADO,,,,
+214,Polylith 6Mil,PO02,75822,AVERY,6Mil Polylith GC-2,6,N/A,N/A,6,N/A,1.327 x 762,MASTER,,Directo,,,24 Hrs.," $ 1,674 ", USD ," $ 1,5500 ",USD,POLYLITH,,,,,,7%,,,PP0,,,,
+215,Polylith 4Mil,PO03,78250,AVERY,4Mil Polylith GC-3,4,N/A,N/A,4,N/A,1.327 x 762,MASTER,,Directo,,,9 Semanas," $ 0,916 ", USD ," $ 0,8480 ",USD,POLYLITH,,,,,,7%,,,PP0,,,,
+216,Polylith 4 Mil,PO04,FF82K,RAFLATAC,3.8 MIL C2S MATTE WHITE PE,"3,8",N/A,N/A,"3,8",TOP COATED,1.537 x 762,MASTER,,Directo,,,4 Semanas," $ 0,823 ", USD ," $ 0,7620 ",USD,POLYLITH,,,,,,7%,,,PP0,,,,
+217,Polylith 7Mil,PO05,78232,AVERY,7 Mil Polylith GC-3,7,N/A,N/A,7,N/A,1.327 x 762,"EXACT 
+MASTER",EXACT USA 3048 ML,Directo,,,9 Semanas," $ 2,312 ", USD ," $ 2,1812 ",USD,POLYLITH,,,,,,6%,,,PP0,,,,
+218,Polylith 6Mil,PO06,FF08H,RAFLATAC,6.0 Mil Synthetic tag,6,N/A,N/A,6,TOP COATED,1.016 x 762,MASTER,,Directo,,,4 Semanas," $ 1,416 ", USD ," $ 1,3360 ",USD,POLYLITH,,,,,,6%,,,PP0,,,,
+219,Polyestireno Medtronic,PS01,FLX029563,FLEXCON,OptiFLEX S 200 R CLEAR TC-634 V-88 44PP-8,2,Hule,3,"5,7",TOP COATED,1.524 x 762,MASTER,,No Especificado,,,7 Semanas," $ 5,883 ", USD ," $ 5,4475 ",USD,POLYESTIRENO / MEDTRONIC,,,,,,7%,,,,,,,
+220,Poliester transparente 1Mil,PT02,77844,AVERY,1Mil Clear Print-Treated Polyester / S8020 / 40#BG,1,Acrílico,"2,3",4,PRINT TREATED, 1.524 x 762 ,"EXACT 
+MASTER", EXACT 762 ML ,No Especificado,,,72 Hrs.," $ 1,307 ", USD ," $ 1,2567 ",USD,POLIESTER TRANS,,,,,,4%,,,NO ESPECIFICADO,,,,
+221,Poliester transparente Kodak (caja amarilla),PT03,DPM,FLEXCON,DPM POLY CLEAR (FLX000311),2,Acrílico,"3,1",6,TOP COATED, 1.524 x 508 , MASTER ,,No Especificado,,,"2 Semanas: D Nebrasca 
+2.5 Semanas: D Spencer"," $ 3,721 ", USD ," $ 3,4452 ",USD,POLIESTER TRANS KODAK,,,,,,7%,,,NO ESPECIFICADO,,,,
+222,Poliester mate transparente,PT05,4625,TECHNICOTE,2MIL POLYESTER CP MATTE CLEAR / TS523 @ 1.7 Cwt. / 50#SCK L-3,2,Acrílico,"3,2",6,TOP COATED, 0.6858 x 1000 , MASTER ,, Indirecto o incidental ,,,7 Semanas," $ 5,249 ", USD ," $ 4,860 ",USD,POLIESTER MATE TRANS,,,,,,7%,, master 0.685 x 750 $2.333 USD/MSI --- $3.6162 USD/M2+ 0.3017 USD(155USD) /FLETE = 3.9179 + 30% GASTOS IMPO = 5.0933 Actualizado 21ene2023 ,PET1,,,,
+223,Poliester transaperente para impresión FLEXAMERICAS (Rendiemiento 0.0168),PT09,F-UPF-012,FLEXAMERICAS,POLYSTER FILM ONE SIDE CHEMICAL 12 MICRAS (16.8G/M2),"0,47",N/A,N/A,"0,47",TOP COATED," Ancho requerido
+Min. 500kg ", EXACT ,ANCHO MINIMO 30CM, Directo ,,,4 Semanas," $ 0,079 ", USD ," $ 0,073 ",USD,POLIESTER TRANS / IMP,"16,8",g/m2,"4,35",usd,"0,07308",7%,, $3.41 USD /kg Rendimiento de 16.8 g/m2 rev87 ,PET0,,,,
+224,Poliester transaperente para sello FLEXAMERICAS (Rendimiento 0.035),PT10,F-TPA-025,FLEXAMERICAS,SEALABLE PEELABLE BOPET FILM 25 MICRAS (35g/m2),"0,98",N/A,N/A,"0,98",CORONA," Ancho requerido
+Min. 500kg ",EXACT,ANCHO MINIMO 30CM,Directo,,,4 Semanas," $ 0,318 ", USD ," $ 0,2940 ",USD,POLIESTER TRANS /SELLO,35,g/m2,"8,4",usd,"0,294",7%,, PRECIO $7.71 USD /KG RENDIMIENTO 35G/M2 rev 87 ,PET0,,,,
+225,Poliester transparente,PT12,77855,AVERY,"1 Mil Clear Polyester TC / S730 / 1 Mil
+Polyester",1,Solvente Acrílico,"1,1","2,82",TOP COATED, 1.524 x 762 ,"EXACT 
+MASTER",EXACT USA 1524 ML,No Especificado,,,9 Semanas," $ 2,005 ", USD ," $ 1,9096 ",USD,POLIESTER TRANS,,,,,,5%,,26-11-2020,NO ESPECIFICADO,,,,
+226,Poliester transparente,PT13,4759,TECHNICOTE,2 MIL POLYESTER TC CLEAR / TS523 @ 1.70 CWT. / 50#SCK L-3,2,Acrílico,"3,2",6,N/A, 0.762 x 762 ,MASTER,,Indirecto o incidental,,,4 Semanas," $ 3,108 ", USD ," $ 2,9322 ",USD,POLIESTER TRANS,,,,,,6%,, master 0.762 x 762 $1.2830 USD/MSI --- $1.9886 USD/M2 + 0.2669 USD(155USD) /FLETE = 2.2555 + 30% GASTOS IMPO = 2.9322 Actualizado 17jun2023 ,,,,,
+227,Void Blanco,SG09,ARSEC BCO TRASL,ARCLAD,ARSEC BLANCO TRASLUCIDO / LA / G62S,"2,56",Acrílico,"2,08","5,55",TOP COATED,0.34 x 500,MASTER,Largo Maximo 1000 m,Indirecto o incidental,,,"48 Hrs. Con stock
+6 Semanas"," $ 6,027 ", USD ," $ 5,5808 ",USD,VOID BLANCO ,,,,,,7%,,,PP1,,,,
+228,Exclusivo Marinela,SG10,ARSEC B MARINEL,ARCLAD,ARSEC BLANCO TRASLUCIDO (MARINELA)  / LA / G62S,"2,56",Acrílico,"2,08","5,55",TOP COATED,0.34 x 4000,MASTER,Largo Maximo 1000 m,Indirecto o incidental,,,6 Semanas," $ 6,772 ", USD ," $ 6,2700 ",USD,VOID MARINELA,,,,,,7%,,,PP1,,,,
+229,Void Plata patron tablero de Ajedrez,SG11,SP054H,RAFLATAC,2.0 MIL VOID SILVER TC / RC18 / 2.2 MIL HIGH DENSITY WHITE,2,Acrílico,"2,2","4,8",TOP COATED,1 x 500,"MASTER
+CINTAS",0.165 X 457,No Especificado,,,"6 Semanas
+72 Hrs."," $ 4,030 ", USD ," $ 3,8020 ",USD,VOID PLATA,,,,,,,,,,,,,
+230,Bopp plata seguridad  patrón Abierto-Opened,SG12,ARSEC PLATA,ARCLAD,Arsec Plata / LA / G62S,"2,59",Acrílico,"2,08","5,63",TOP COATED,0.34 x 500,MASTER,,No Especificado,,,"48 Hrs. Con stock
+6 Semanas"," $ 5,838 ", USD ," $ 5,5079 ",USD,VOID PLATA,,,,,,,,,,,,,
+231,Transcode,TC01,14554,AVERY,Transcode / TL2 / 50#SCK,4,Hule,"3,2","9,2",CORONA,0.762 x 762,MASTER,Largo Maximo 762 m,Indirecto o incidental,,,72 Hrs.," $ 3,985 ", USD ," $ 3,7594 ",USD,TRANSCODE ,,,,,,6%,,,GC2,,,,
+232,Ultraseal (Monocapa),TS02,-,FLEXAMERICAS,Poliester transparente para impresión y sello (PT10) (35g/m2),"0,98",N/A,N/A,"0,98",CORONA," Ancho requerido
+Min. 1000kg ",EXACT,ANCHO MINIMO 30CM,Directo,,,4 Semanas," $ 0,318 ", USD ,,USD,ULTRASEAL TS02,35,g/m2,"7,71",usd,"0,26985",100%,, PRECIO $7.71 USD /KG RENDIMIENTO 35G/M2 rev 87 ,CONSTRUCCIÓN,,,,
+233,Top Seal sellable (Bicapa),TS03,-,FLEXAMERICAS,Poliester transparente para impresión (PT09) + Poliester transparente para sello (PT10) + adhesivo UV (UV15),N/D,N/A,N/A,N/D,N/A,-,-,,Directo,,,4 Semanas," $ 0,438 ", USD ,,USD,TOP SEAL TS03,,,,usd," $ 0,41 ",100%,," COSTO CONSIDERADO CON LOS PRECIOS DE LISTA Rev 87
+F-UPF-012 (PT09) $0.062 + F-TPA-025 (PT10) $0.291 +  OP3022 ADHESIVO $0.049 ",CONSTRUCCIÓN,,,,
+234,Transtherm Genérico,TT01,,,"C11381 (FEDRIGONI), 280SV (AVERY), 12913M (AVERY), 2806SV (AVERY), TT1702 (MACTAC)",,,,,,,EXACT,,Verificar por clave,,,," $ 0,437 ", USD ,,,TRANSTHERM,,,,,,100%,, Se cotiza fijo 0.45 Autoriza ing. Ernesto sanchez 04-07-2022 ,GENERICO,,,,
+235,Transtherm Genérico,TT02,,,"C11381 (FEDRIGONI), 280SV (AVERY), 12913M (AVERY), 2806SV (AVERY), TT1702 (MACTAC)",,,,,,,EXACT,,Verificar por clave,,,," $ 0,437 ", USD ,,,TRANSTHERM,,,,,,100%,, PRECIO PARA COTIZAR =+4% ,GENERICO,,,,
+236,Transtherm adhesivo removible (R195),TT03,18327,AVERY,Trans-Therm 1C/R5195/40#CK,3,Acrílico,"2,4","6,3",N/A,1.981 x 762,MASTER,,Indirecto o incidental,,,72 Hrs.," $ 0,961 ", USD ," $ 0,8898 ",USD,TRANSTHERM,,,,,,7%,,,PA1,,,,
+237,Transtherm Fascover,TT04,B6853,AVERY,TRANS-THERM 1C FASCOVERTM2 / AT2550 / 40#CK,"2,9",Acrílico,"2,4","6,1",N/A,1.981 x 3048,"EXACT
+MASTER",EXACT USA 1524 ML,Indirecto o incidental,,,8 Semanas," $ 1,491 ", USD ," $ 1,4336 ",USD,TRANSTHERM,,,,,,,,,,,,,
+238,Transtherm adhesivo hule,TT06,280SV,AVERY,TRANS-THERM 1C LW FSC/S2005/40#BG,"2,8",Hule,2,"5,4",N/A,1.524 x 762,"EXACT 
+MASTER","EXACT 1500 
+ 3000 ML",Indirecto o incidental,FSC,,24 Hrs.," $ 0,437 ", USD ," $ 0,4200 ",USD,TRANSTHERM,,,,,,4%,,,PA2,,,,
+239,Transtherm 1C adhesivo HMR,TT09,14188,AVERY,TRANS-THERM 1C/Hammerlock/40#SCK,3,Hule,"2,5","6,44",N/A,0.762 x 762,MASTER,,Indirecto o incidental,,,72 Hrs.," $ 1,746 ", USD ," $ 1,6476 ",USD,TRANSTHERM,,,,,,6%,,,PA2,,,,
+240,Transferencia térmica c/adh removible,TT10,TT77K,RAFLATAC,Transfer Premium Extra / RR22 / 40#WH KRAFT,"2,7",Hule,"2,4","5,6",N/A,1 x 762,MASTER,,Indirecto o incidental,,,24 Hrs.," $ 0,880 ", USD ," $ 0,8300 ",USD,TRANSTHERM,,,,,,6%,,,PA2,,,,
+241,Transferencia térmica adhesivo acrílico (ANTES 12913),TT11,12913M,AVERY,Trans-Therm 1C LW FSC / S2501 / 40 # BG,"2,3",Acrílico,2,5,N/A,1.524 x 1500,"EXACT 
+MASTER",EXACT 3000 ML,Indirecto o incidental,FSC,,72 Hrs.," $ 0,511 ", USD ," $ 0,4909 ",USD,TRANSTHERM,,,,,,4%,,,PA1,,,,
+242,Alternativa transtherm,TT15,280SV,AVERY,TRANS-THERM 1C LW FSC/S2005/40#BG,"2,8",Hule,2,"5,4",N/A,1.524 x 762,"EXACT 
+MASTER","EXACT 1500 
+ 3000 ML",Indirecto o incidental,FSC,,24 Hrs.," $ 0,437 ", USD ," $ 0,4200 ",USD,TRANSTHERM,,,,,,4%,,,PA2,,,,
+243,Transferencia térmica adhesivo acrílico,TT17,TT227N,RAFLATAC,THERMAL TRANSFER / RP51 / WHITE GLASS C5-FSC,"2,75",Acrílico,2,"5,28",N/A,2 x 762,"EXACT 
+MASTER",EXACT 1524 ML,Indirecto o incidental,FSC EN RESPALDO,,48 Hrs.," $ 0,520 ", USD ," $ 0,5000 ",USD,TRANSTHERM,,,,,,4%,,,PA1,,,,
+244,Transtherm removible,TT18,7758P,FEDRIGONI,Top Transfer 70 G / AR805 / SK60 Removible,"2,8",Acrílico,"2,1","5,7",N/A,1.5 x 762,MASTER,,No Especificado,,,48 Hrs.," $ 0,755 ", USD ," $ 0,712 ",USD,TRANSTHERM,,,,,,6%,,,NO ESPECIFICADO,,,,
+245,Transtherm S246,TT19,13605,AVERY,TRANS-THERM 1C FSC / S246 / 40#CK,"2,9",Hule,"2,4","6,1",N/A,1.981 x 762,"EXACT USA 
+MASTER",EXACT USA 2286 ML,Indirecto o incidental,FSC,,9 Semanas," $ 0,735 ", USD ," $ 0,7000 ",USD,TRANSTHERM,,,,,,5%,,,PA2,,,,
+246,Transtherm Piggyback,TT21,TT9502PB,MACtac,THERMAL TRANSFER TRANSLABEL / ST-95 / 2.4 SCK /ST-95 / 2.4 SCK,"2,9",Acrílico,"2,4","9,1",N/A,1.98 x 1524,MASTER,,No Especificado,,,4 Semanas," $ 1,296 ", USD ," $ 1,2000 ",USD,TRANSTHERM,,,,,,7%,,,NO ESPECIFICADO,,,,
+247,Transtherm liner amarillo Medtronic (antes AA011),TT22,BK658,AVERY,TRANSFER SUPERIOR FSC / S2000NP / BG40BR,"2,91",Acrílico,"1,93","5,51",N/A,2 x 1000,MASTER,STOCK DEDICADO,Directo,FSC,,13 Semanas," $ 1,120 ", USD ," $ 1,0566 ",USD,TRANSTHERM / MEDTRONIC,,,,,,6%,, Se cambia de matderial AA011 a material Bk658 en la Rev. 86 ,PA1,,,,
+248,Transtherm Medtronic (antes 16071),TT23,53873,AVERY,Trans-Therm 2C FSC/S2550/40#SCK,"3,5",Acrílico,"2,4","6,7",N/A,1.98 x 762,MASTER,STOCK DEDICADO,Indirecto o incidental,,,9 Semanas," $ 0,692 ", USD ," $ 0,6529 ",USD,TRANSTHERM / MEDTRONIC,,,,,,6%,,,PA1,,,,
+249,Transtherm Medtronic,TT25,08027,AVERY,Trans-Therm 2C/S246/40#CK,"3,5",Hule,"2,4","6,7",N/A,1.98 x 3048,MASTER,STOCK DEDICADO,Indirecto o incidental,,,9 Semanas," $ 0,987 ", USD ," $ 0,9313 ",USD,TRANSTHERM / MEDTRONIC,,,,,,6%,,,PA2,,,,
+250,Transtherm adhesivo hule,TT26,TT1702,MACtac,Optiscan 2C Thermal Transfer / Hybrid Adhesive / 2.4 SCK,"2,9",Hule,"2,4",6,N/A,1.98 x 762,"EXACT 
+MASTER",EXACT 1524 y 3048 ML,Indirecto o incidental,,,24 Hrs.," $ 0,442 ", USD ," $ 0,4250 ",USD,TRANSTHERM,,,,,,,4%,,,PA2,,,
+251,Transtherm adhesivo acrilico (Antes 54092),TT29,54091,AVERY,Trans-Therm 1C FSC / S2550 / 40#SCK,"2,9",Acrílico,"2,4","6,1",N/A,1.981 x 1524,MASTER,,Indirecto o incidental,FSC,,9 Semanas," $ 0,685 ", USD ," $ 0,6465 ",USD,TRANSTHERM / MEDTRONIC,,,,,,6%,,,PA1,,,,
+252,Transferencia térmica adhesivo acrílico IFCO,TT30,TT50F,RAFLATAC,Transfer Premium Extra / RP51 / 40#White Kraft,"2,7",Acrílico,"2,4","5,6",N/A,1 x 762,"EXACT 
+MASTER",EXACT 1524 ML,Indirecto o incidental,,,48 Hrs.," $ 0,634 ", USD ," $ 0,6100 ",USD,TRANSTHERM,,,,,,4%,,,PA1,,,,
+253,Transferencia térmica adhesivo acrílico,TT32,TT9502,MACtac,OPTISCAN 2C MATTE THERMAL TRANSFER / ST-95 / 2.4 MIL SCK,"2,9",Acrílico,"2,45","6,05",N/A,1.98 x 762,"EXACT 
+MASTER",EXACT 1524 y 3048 ML,Indirecto o incidental,,,48 Hrs.," $ 0,515 ", USD ," $ 0,4900 ",USD,TRANSTHERM,,,,,,,,,PA1,,,,
+254,Transtherm adhesivo acrilico,TT33,GVALUT72040SC,GREEN BAY,FSC-VALUE THERMAL TRANS / 720 ALL-TEMP ADHESIVE / 40 SC LINER,"2,8",Acrílico,"2,4","5,9",N/A,1.524 x 750,"EXACT 
+MASTER",EXACT 750 y 1550 ML,Indirecto o incidental,,,48 Hrs.," $ 0,646 ", USD ," $ 0,6210 ",USD,TRANSTHERM,,,,,,,,,PA1,,,,
+255,Transtherm adhesivo hule,TT36,280SV,AVERY,TRANS-THERM 1C LW FSC/S2005/40#BG,"2,8",Hule,2,"5,4",N/A,1.524 x 762,"EXACT 
+MASTER",EXACT 1500 y 3000 ML,Indirecto o incidental,FSC,,24 Hrs.," $ 0,437 ", USD ," $ 0,4200 ",USD,TRANSTHERM,,,,,,,,,PA2,,,,
+256,Transtherm adhesivo hule,TT37,C11381,FEDRIGONI,TRANS-THERM 64G / H108L / SCK 67G,"2,5",Hule,"2,5","5,5",N/A,1.524 x 1524,"EXACT 
+MASTER",EXACT 3048 ML,No Especificado,,,48 Hrs.," $ 0,437 ", USD ," $ 0,4200 ",USD,TRANSTHERM,,,,,,,,,,,,,
+257,Transtherm adhesivo hule,TT38,2806SV,AVERY,TRANS-THERM FSC / S2005 / 40#BG,"2,4",Hule,2,5,N/A,1524 x 762,"EXACT
+MASTER",EXACT 1500 y 3000 ML,Indirecto o incidental,FSC,,"24 Hrs
+72 Hrs"," $ 0,460 ", USD ," $ 0,4420 ",USD,TRANSTHERM,,,,,,,,,,,,,
+258,Transtherm Piggyback,TT40,UM14S,RAFLATAC,TRANSFER PREMIUM PLUS / RP51 / 40# WHITE KRAFT / RP51 / 40# WHITE KRAFT,"2,9","Acrilico
+Acrílico","2.4
+2.4","8,7",N/A,2 x 1524,"EXACT USA
+MASTER",EXACT 1524 ML,Indirecto o incidental,,,5 Semanas," $ 1,212 ", USD ," $ 1,1650 ",USD,TRANSTHERM,,,,,,,,,,,,,
+259,Tyvek con patron de adhesivo,TY02,,,"78849 (AVERY), 79255 (AVERY), 79546 (AVERY), 78610 (AVERY),",,,,,,,MASTER,Joyería,No Especificado,,,5 Semanas," $ 4,607 ", USD ,,,TYVEK ADH / P,,,,,,100%,,"78610 Y 79255 $3.1589
+78849,  79546 $3.1294",NO ESPECIFICADO,,,,
+260,"Tyvek con patron de adhesivo
+Pesas + 4c 63x11",TY04,78849,AVERY,8M Wh Tyvek / S730 (PATRÓN) / 50#SCK,"7,6",Solvente Acrílico,"3,2","11,6",N/A,1.371 x 1524,MASTER,"Joyería
+Largo Maximo 762 m",No Especificado,,,11 Semanas," $ 4,607 ", USD ," $ 4,0810 ",USD,TYVEK ADH / P,,,,,,11%,,,NO ESPECIFICADO,,,,
+261,"Tyvek con patron de adhesivo
+Todo pesas",TY05,79255,AVERY,8M Wh Tyvek / S730 (PATRÓN) / 50#SCK,"7,6",Solvente Acrílico,"3,2","11,6",N/A,1.371 x 1524,MASTER,"Joyería
+Largo Maximo 762 m",No Especificado,,,11 Semanas," $ 4,607 ", USD ," $ 4,0810 ",USD,TYVEK ADH / P,,,,,,11%,,,NO ESPECIFICADO,,,,
+262,"Tyvek con patron de adhesivo
+Pesas + 8c 63x11",TY06,79546,AVERY,8M Wh Tyvek / S730 (PATRÓN) / 50#SCK,"7,6",Solvente Acrílico,"3,2","11,6",N/A,1.371 x 1524,MASTER,"Joyería
+Largo Maximo 762 m",No Especificado,,,11 Semanas," $ 4,607 ", USD ," $ 4,3461 ",USD,TYVEK ADH / P,,,,,,6%,,,NO ESPECIFICADO,,,,
+263,"Tyvek con patron de adhesivo
+Pesas + 2c 63x11",TY07,78610,AVERY,8M Wh Tyvek / S730 (PATRÓN) / 50#SCK,"7,6",Solvente Acrílico,"3,2","11,6",N/A,1.371 x 1524,MASTER,"Joyería
+Largo Maximo 762 m",No Especificado,,,11 Semanas," $ 4,607 ", USD ," $ 4,0810 ",USD,TYVEK ADH / P,,,,,,11%,,,NO ESPECIFICADO,,,,
+264,Barniz UV brillante (Terminado de etiquetas),UV01,BF-320,NATURAL INK,Barniz UV brillante,N/A,N/A,N/A,N/A,N/A,-,-,-,No Especificado,,,24 Hrs.," $ 0,037 ", USD ," $ 0,037 ",USD,,,,,,,0%,,,NO ESPECIFICADO,,,,
+265,Barniz UV brillante sobreimprimible,UV02,BF-390,NATURAL INK,Barniz UV brillante sobreimprimible,N/A,N/A,N/A,N/A,N/A,-,-,-,No Especificado,,,24 Hrs.," $ 0,035 ", USD ," $ 0,035 ",USD,,,,,,,0%,,,NO ESPECIFICADO,,,,
+266,Barniz UV mate,UV04,"BF394
+OP2008","NATURAL INK
+NAZDAR",Barniz UV mate,N/A,N/A,N/A,N/A,N/A,-,-,-,No Especificado,,,24 Hrs.," $ 0,054 ", USD ," $ 0,054 ",USD,,,,,,,0%,,,NO ESPECIFICADO,,,,
+267,Barniz UV brillante resistente a solventes,UV05,BF-320,NATURAL INK,Barniz UV brillante resistente a solventes,N/A,N/A,N/A,N/A,N/A,-,-,,No Especificado,,,24 Hrs.," $ 0,037 ", USD ," $ 0,037 ",USD,,,,,,,0%,,,TU,,,,
+268,Barniz brillante contacto directo con alimentos (FDA),UV06,"AQ141
+AB001","INKOLOR
+UNITY INK",Barniz brillante contacto directo con alimentos (FDA),N/A,N/A,N/A,N/A,N/A,-,-,-,Directo,,,24 Hrs.," $ 0,024 ", USD ," $ 0,024 ",USD,,,,,,,0%,,,TA,,,,
+269,Barniz brillante UV con aprobación FDA,UV07,OP1011,NAZDAR,Barniz brillante UV con aprobación FDA,N/A,N/A,N/A,N/A,N/A,-,-,-,Directo,,,24 Hrs.," $ 0,147 ", USD ," $ 0,147 ",USD,,,,,,,0%,,,TU,,,,
+270,Barniz mate UV texturizado,UV08,7903,NICOAT,Barniz mate UV texturizado,N/A,N/A,N/A,N/A,N/A,-,-,-,No Especificado,,,1 Semana," $ 0,128 ", USD ," $ 0,128 ",USD,,,,,,,0%,,,NO ESPECIFICADO,,,,
+271,Barniz brillante UV resistente a fricción,UV09,BF-320,NATURAL INK,Barniz brillante UV resistente a fricción,N/A,N/A,N/A,N/A,N/A,-,-,-,No Especificado,,,24 Hrs.," $ 0,037 ", USD ," $ 0,037 ",USD,,,,,,,0%,,,NO ESPECIFICADO,,,,
+272,Barniz release para aplicación etiqueta cupón,UV10,OP3003,NAZDAR,Barniz release (para etiqueta cupón),N/A,N/A,N/A,N/A,N/A,-,-,-,No Especificado,,,3 Semanas," $ 0,102 ", USD ," $ 0,102 ",USD,,,,,,,0%,,,NO ESPECIFICADO,,,,
+273,Adhesivo UV para aplicación etiqueta cupón,UV11,OP3017,NAZDAR,Adhesivo UV (para etiqueta cupón),N/A,N/A,N/A,N/A,N/A,-,-,-,No Especificado,,,3 Semanas," $ 0,148 ", USD ," $ 0,148 ",USD,,,,,,,0%,,,NO ESPECIFICADO,,,,
+274,Barniz UV brillante sobreimprimible (Medtronic),UV12,800-IV,FLEXOTECH,Barniz brillante sobreimprimible,N/A,N/A,N/A,N/A,N/A,-,-,-,No Especificado,,,24 Hrs.," $ 0,097 ", USD ," $ 0,097 ",USD,,,,,,,0%,,,NO ESPECIFICADO,,,,
+275,Primer para bopp sin adhesivo,UV13,ESP,NATURAL INK,Primer flexo alcohol uniflex,N/A,N/A,N/A,N/A,N/A,-,-,-,No Especificado,,,24 Hrs.," $ 0,034 ", USD ," $ 0,034 ",USD,,,,,,,0%,,, NO ESPECIFICADO ,,,,
+276,Barniz Táctil (Alto relieve Cuervo),UV14,"RVG001484
+RVG001451",ACTEGA,Tactil Coat,N/A,N/A,N/A,N/A,N/A,-,-,-,No Especificado,,,6 Semanas," $ 0,147 ", USD ," $ 0,147 ",USD,,,,,,,0%,, Se consideran 3g/m2 para cotizar y se revisa con Lalo el cosnumo promedio es de 1.5gr/m2 para impresión cuervo pero el area de impresión es muy pequeña. , NO ESPECIFICADO ,,,,
+277,Adhesivo de laminación UV para aplicación top seal,UV15,35171B,TM,Adhesivo de laminación UV,N/A,N/A,N/A,N/A,N/A,-,-,-,No Especificado,,,3 Semanas," $ 0,042 ", USD ," $ 0,042 ",USD,,,,,,,0%,,, NO ESPECIFICADO ,,,,
+278,Barniz Mate UV Sobreimpresión (Cuervo),UV16,RH0024544,ZELLER,BARNIZ MATE SOBREIMPRIMIBLE,N/A,N/A,N/A,N/A,N/A,-,-,-,No Especificado,,,24 Hrs.," $ 0,053 ", USD ," $ 0,053 ",USD,,,,,,,0%,,, NO ESPECIFICADO ,,,,
+279,Barniz UV Brillante Medtronic,UV17,UVF02052,FLINT GROUP,UVF PROD RESIST COATING 8#,N/A,N/A,N/A,N/A,N/A,-,-,-,No Especificado,,,8 Semanas," $ 0,097 ", USD ," $ 0,097 ",USD,,,,,,,0%,,,,,,,
+280,Barniz brillante imprimible para Xeikon,UV18,UXH0-0080-405N,FLINT GROUP,DIGICOAT; TTR GLOSS VARNISH,N/A,N/A,N/A,N/A,N/A,-,-,-,No Especificado,,,4 Semanas," $ 0,156 ", USD ," $ 0,156 ",USD,,,,,,,0%,,, NO ESPECIFICADO ,,,,
+281,Barniz brillante para Xeikon,UV19,UXH0-0001-405N,FLINT GROUP,DIGICOAT; EX GP FLEXO VARNISH,N/A,N/A,N/A,N/A,N/A,-,-,-,No Especificado,,,4 Semanas," $ 0,136 ", USD ," $ 0,136 ",USD,,,,,,,0%,,,,,,,
+282,Primer base UV,UV20,UVF-940,NATURAL INK,Primer UV Flexo,N/A,N/A,N/A,N/A,N/A,-,-,-,No Especificado,,,72 Hrs.," $ 0,044 ", USD ," $ 0,044 ",USD,,,,,,,0%,,,,,,,
+283,Primer base agua,UV21,WS002,INKOLOR,Blanco transparente base agua,N/A,N/A,N/A,N/A,N/A,-,-,-,No Especificado,,,24 Hrs.," $ 0,017 ", USD ," $ 0,017 ",USD,,,,,,,0%,,,,,,,
+284,Adhesivo para cold foil,UV22,RH3427597,ZELLER,UV Flexo adhesivo para estampado en frío (Cold foil),N/A,N/A,N/A,N/A,N/A,-,-,-,No Especificado,,,24 Hrs.," $ 0,073 ", USD ," $ 0,073 ",USD,,,,,,,0%,,,,,,,
+285,Vinil Blanco,VI01,A-303,MACtac,VINIL BLANCO MATE / ADHESIVO ACRILICO / KRAFT SEMI-BLANQUEADO SUPERCALANDRADO,"3,2",Acrílico,"3,2",7,N/A,0.66 x 1000,MASTER,,Indirecto o incidental,,,1 Semana," $ 1,836 ", USD ," $ 1,700 ",USD,VINIL BCO,,,,,,7%,,, PVC1 ,,,,
+286,Vinil Transparente,VI02,AS880,AVERY,PVC OUTDOOR CLEAR / AL170 / BG42WH,"3,15",Solvente Acrílico,"2,24","6,38",N/A,1 x 1000,MASTER,,No Especificado,,,13 Semanas," $ 2,690 ", USD ," $ 2,4910 ",USD,VINIL TRANS,,,,,,7%,,, NO ESPECIFICADO ,,,,
+287,Papel texturizado para vinos,WI03,12649,AVERY,60# Classic Laid Solar White WS FSC/ S100R/ 44#PK,"5,4",Acrílico,"3,1","9,3",N/A,1.524 x 762,"EXACT USA 
+MASTER",EXACT USA 1524 ML,Indirecto o incidental,FSC,,9 Semanas," $ 1,670 ", USD ," $ 1,5900 ",USD,PAPEL TEXTURIZADO / VINOS,,,,,,5%,,,PA4,,,,
+288,Papel texturizado para vinos (ANTES 19652),WI04,54171,AVERY,60# Classic Felt Natural White Wet-Strength FSC/AT20N/1.2 Mil PET,"5,1",Acrílico,"1,2","7,1",N/A,1.524 x 762,MASTER,,Indirecto o incidental,FSC,,9 Semanas," $ 1,549 ", USD ," $ 1,4611 ",USD,PAPEL TEXTURIZADO / VINOS,,,,,,6%,,,PA3,,,,
+289,Papel texturizado para vinos,WI05,B5584,AVERY,70# Bright White Felt Wet-StrengthFSC / S100RB / 1.2 Mil Polyester,"6,2",Acrílico,"1,2","8,2",N/A,1.524 x 762,"EXACT USA 
+MASTER
+CINTAS","EXACT USA 3048 ML
+33 x 1524 M",Indirecto o incidental,FSC,APROBADO,"9 Semanas
+
+24 Horas."," $ 1,840 ", USD ," $ 1,7695 ",USD,PAPEL TEXTURIZADO / VINOS,,,,,,4%,,,PA3,,,,
+290,Papel texturizado para vinos,WI06,AQ988,AVERY,DIG INDI MARTELE BL FSC / S2074N / BG45WH IMP,"4,65",Hule,"2,4","7,79",N/A,1 x 1000,MASTER,,Indirecto o incidental,FSC,,22 Semanas," $ 1,933 ", USD ," $ 1,7900 ",USD,PAPEL TEXTURIZADO / VINOS,,,,,,7%,,,PA2,,,,
+291,Papel texturizado para vinos,WI07,B5786,AVERY,60# Classic Linen Solar White WS FSC / Z2010 / 1.2 Mil Polyester,"4,6",Acrílico,"1,18","6,558",N/A,1.524 x 762,"EXACT USA 
+MASTER",EXACT USA 3048 ML,Indirecto o incidental,FSC,,6 Semanas," $ 1,840 ", USD ," $ 1,7691 ",USD,PAPEL TEXTURIZADO / VINOS,,,,,,4%,,,PA3,,,,
+292,Papel texturizado para vinos,WI08,WL68A,RAFLATAC,ICY WHITE ICE PM-FSC / RS30 / 1.2 mil PET PCR,"5,43",Acrílico,"1,2","7,4",N/A,2 x 762,"EXACT USA 
+MASTER",EXACT USA 3048 ML,Indirecto o incidental,FSC Y CONT. RECICLADO ,,4 Semanas," $ 1,612 ", USD ," $ 1,5210 ",USD,PAPEL TEXTURIZADO / VINOS,,,,,,6%,,,PA3,,,,
+293,Papel texturizado para vinos,WI09,W028890,WAUSAU COATED,60# Estate Label® #4 Wet Strength FSC / H-318 / 40# SC,"5,1",Acrílico,"2,5","8,4",N/A,0.99 x 1524,"MASTER
+CINTAS",33 x 1524 ML,Indirecto o incidental,FSC,APROBADO,1 Semana," $ 1,554 ", USD ," $ 1,4800 ",USD,PAPEL TEXTURIZADO / VINOS,,,,,,,, Se incluye 5% por costo de flete cdmx -gdl ,PA4,,,,
+294,Papel texturizado para vinos,WI10,W027880,WAUSAU COATED,60# POLAR WHITE UNCOATED WS / H-318 / 1.2 MIL CLEAR POLYESTER,"4,9",Acrilico,"1,2","6,9",N/A,0.99 x 1524,MASTER,,Indirecto o incidental,,,3 Semanas," $ 1,838 ", USD ," $ 1,7500 ",USD,PAPEL TEXTURIZADO / VINOS,,,,,,,, Se incluye 5% por costo de flete cdmx -gdl ,PA4,,,,
+295,Papel texturizado para vinos,WI11,19650,AVERY,Estate Label #8 FSC/ AT20N / 1.2M PET,"4,7",Acrílico,"1,2","6,7",N/A,1.524 x 1500,"MASTER
+CINTAS",EXACT 1500 ML,,FSC,,24 Hrs.," $ 1,418 ", USD ," $ 1,3631 ",USD,PAPEL TEXTURIZADO / VINOS,,,,,,,,,,,,,
+296,Papel texturizado para vinos,WI12,WL370R,RAFLATAC,Raflasilk FSC / RP51 / 30 Pet,"2,8",Acrílico,"1,2","4,5",N/A,2 x 3048,"EXACT USA 
+MASTER",EXACT USA 3048ML,Indirecto o incidental,,,10 Semanas," $ 0,770 ", USD ," $ 0,7330 ",USD,PAPEL TEXTURIZADO / VINOS,,,,,,,,,,,,,
+297,Papel texturizado para vinos,WI13,WL60S,RAFLATAC,70# Classic Crest* Solar WH Felt - FSC / RW110F / PET 30,"6,22",Acrilico,"1,18","7,99",N/A,2 x 1524,MASTER CINTAS,33 x 1524 ML,Indirecto o incidental,FSC,,"4 semanas
+48 Hrs."," $ 1,260 ", USD ," $ 1,2000 ",USD,PAPEL TEXTURIZADO / VINOS,,,,,,,,,,,,,
+298,Papel texturizado para vinos,WI14,W027651,WAUSAU COATED,"70# Eggshell Felt With 30% PCW, Wet Strength, FSC","6,2",Acrilico,"3,2","10,2",N/A,,CINTAS,33 x 1524 ML,Indirecto o incidental,FSC EN SUPERFICIAL,,72 HRS.," $ 1,831 ", USD ," $ 1,7440 ",USD,PAPEL TEXTURIZADO / VINOS,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,CA32,,CANTUBOS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,GC09,SY142Z,RAFLATAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,GC10,PH2063S,RAFLATAC,2.0 mil FOREST PP CLEAR TC / RP71 AM / 1.2 mil PET PCR,"1,85",Acrílico,"1,2","3,6",TOP COATED,2 x 1500,MASTER,,No Especificado,"Superficial elaborado a partir de residuos madera
+PCR en respaldo",,,, USD ," $ 0,8040 ",USD,,,,,,,,,,,,,,
+,Poliester transparente para sello,PT14,PET AFROLL 25M,PERFON,TOPSEAL PET AF PEELABLE 25 MICRAS (29.2m2/kg),"0,98",N/A,N/A,"0,98",N/D," Ancho requerido
+Min. 2,000kg ",EXACT,EXACT 6000 ML,Directo,,,,, USD ,,USD,POLIESTER TRANS /SELLO,"29,2",m2/kg,"6,5",usd,"0,1898",,,,,,,,
