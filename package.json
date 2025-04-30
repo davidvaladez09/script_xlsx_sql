@@ -1,0 +1,23 @@
+{
+  "name": "script-sql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node script_sql.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/node": "^22.15.3",
+    "csv-parse": "^5.6.0",
+    "fs": "^0.0.1-security",
+    "xlsx": "^0.18.5"
+  }
+}
