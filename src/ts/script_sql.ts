@@ -526,16 +526,57 @@ COMMIT;
   }
 }
 
-// Main execution
+const BASE_DIR = process.cwd(); 
+const EXCEL_FOLDER = path.join(BASE_DIR, 'files');
+const OUTPUT_FOLDER = path.join(BASE_DIR, 'sql_output');
+
+if (!fs.existsSync(EXCEL_FOLDER)) {
+  fs.mkdirSync(EXCEL_FOLDER, { recursive: true });
+}
+if (!fs.existsSync(OUTPUT_FOLDER)) {
+  fs.mkdirSync(OUTPUT_FOLDER, { recursive: true });
+}
+
+const MATERIALS_EXCEL = path.join(EXCEL_FOLDER, 'materiales.xlsx');
+const DIE_CUTTERS_EXCEL = path.join(EXCEL_FOLDER, 'suajes.xlsx');
+const OUTPUT_SQL = path.join(OUTPUT_FOLDER, 'update_train_db.sql');
+
+function checkFilesExist() {
+  const errors: string[] = [];
+  
+  if (!fs.existsSync(MATERIALS_EXCEL)) {
+    errors.push(`No se encontró el archivo: ${MATERIALS_EXCEL}`);
+  }
+  
+  if (!fs.existsSync(DIE_CUTTERS_EXCEL)) {
+    errors.push(`No se encontró el archivo: ${DIE_CUTTERS_EXCEL}`);
+  }
+  
+  if (errors.length > 0) {
+    console.error('Errores encontrados:');
+    errors.forEach(err => console.error(`- ${err}`));
+    console.log(`\nPor favor coloca los archivos en: ${EXCEL_FOLDER}`);
+    return false;
+  }
+  
+  return true;
+}
+
 function main() {
-  const materialesExcel = path.join(process.cwd(), 'materiales.xlsx');
-  const suajesExcel = path.join(process.cwd(), 'suajes.xlsx');
-  const outputSql = path.join(process.cwd(), 'update_train_db_ts.sql');
+  if (!checkFilesExist()) {
+    return;
+  }
 
-  const materialsData = processMaterials(materialesExcel);
-  const dieCuttersData = processDieCutters(suajesExcel);
+  console.log(`Procesando archivos desde: ${EXCEL_FOLDER}`);
+  console.log(`- Materiales: ${MATERIALS_EXCEL}`);
+  console.log(`- Suajes: ${DIE_CUTTERS_EXCEL}`);
+  
+  const materialsData = processMaterials(MATERIALS_EXCEL);
+  const dieCuttersData = processDieCutters(DIE_CUTTERS_EXCEL);
 
-  generateCombinedSqlScript(materialsData, dieCuttersData, outputSql);
+  generateCombinedSqlScript(materialsData, dieCuttersData, OUTPUT_SQL);
+  
+  console.log(`\nArchivo SQL generado en: ${OUTPUT_SQL}`);
 }
 
 main();
