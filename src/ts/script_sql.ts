@@ -1,9 +1,18 @@
 import fs from 'fs';
 import path from 'path';
-import { parse } from 'csv-parse/sync';
 import xlsx from 'xlsx';
+import mysql from 'mysql2/promise';
 
-// Define interfaces for our data structures
+const dbConfig = {
+  host: 'localhost',
+  user: 'root',
+  password: '',
+  database: 'train_db',
+  port: 3306,
+  multipleStatements: true,
+  maxAllowedPacket: 16 * 1024 * 1024 
+};
+
 interface MaterialRow {
   [key: string]: any;
   'NOMBRE'?: string;
@@ -51,7 +60,6 @@ interface DieCutterRow {
   entry_date?: string;
 }
 
-// Helper functions
 function cleanColumnName(col: string | number): string {
   if (typeof col === 'number') {
     return col.toString();
@@ -96,21 +104,43 @@ function formatSqlValue(value: any, fieldName: string, isMaterial: boolean = fal
   }
 
   if (fieldName === 'entry_date') {
-    if (valueStr.includes('/')) {
-      const parts = valueStr.split('/');
-      if (parts.length === 3) {
-        let [day, month, year] = parts.map(Number);
+    if (!value) return 'NULL';
+    
+    const valueStr = value.toString().trim();
+    const dateFormats = [
+      { regex: /(\d{2})\/(\d{2})\/(\d{4})/, parts: [2, 1, 0] }, // DD/MM/YYYY
+      { regex: /(\d{4})-(\d{2})-(\d{2})/, parts: [2, 1, 0] },   // YYYY-MM-DD
+      { regex: /(\d{1,2})\/(\d{1,2})\/(\d{2})/, parts: [2, 1, 0] } // DD/MM/YY
+    ];
+
+    for (const format of dateFormats) {
+      const match = valueStr.match(format.regex);
+      if (match) {
+        let [_, day, month, year] = match;
+
+        day = parseInt(day, 10);
+        month = parseInt(month, 10);
+        year = parseInt(year, 10);
+
         if (year < 100) year += 2000;
+        /*
+        if (month < 1 || month > 12 || day < 1 || day > 31) {
+          console.warn(`Fecha inválida en registro: ${valueStr}`);
+          return 'NULL';
+        }
+        */
+
         return `'${year}-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}'`;
       }
     }
-    return `'${valueStr}'`;
+    
+    // console.warn(`Formato de fecha no reconocido: ${valueStr}`);
+    return 'NULL';
   }
 
   return `'${valueStr.replace(/'/g, "''")}'`;
 }
 
-// Process Materials Excel
 function processMaterials(excelFilePath: string): MaterialRow[] | null {
     try {
       const workbook = xlsx.readFile(excelFilePath);
@@ -132,7 +162,6 @@ function processMaterials(excelFilePath: string): MaterialRow[] | null {
         cleanColumnName(col).toUpperCase().replace('\n', ' ').trim()
       );
   
-      // Mapeo de columnas esperadas
       const columnMapping: Record<string, string[]> = {
         'NOMBRE': ['NOMBRE'],
         'CLAVE INTERNA': ['CLAVE INTERNA'],
@@ -229,354 +258,377 @@ function processMaterials(excelFilePath: string): MaterialRow[] | null {
       return null;
     }
   }
+
+  function processDieCutters(excelFilePath: string): DieCutterRow[] | null {
+    try {
+      const workbook = xlsx.readFile(excelFilePath);
+      const sheetName = workbook.SheetNames[0];
+      const sheet = workbook.Sheets[sheetName];
+      
+      // Skip first 2 rows and use row 3 as headers
+      const data: any[] = xlsx.utils.sheet_to_json(sheet, { range: 2, defval: null });
   
-  // Modificamos la generación SQL para materiales
-  function generateMaterialInserts(materialsData: MaterialRow[]): string[] {
-    const inserts: string[] = [];
-    
-    materialsData.forEach((row, index) => {
-      const fields: string[] = ['id'];
-      const values: string[] = [(index + 1).toString()];
-  
-      // Mapeo de campos
-      const mappings = {
-        name: row['NOMBRE'],
-        provider_code: row['CLAVE PROVEEDOR'],
-        internal_code: row['CLAVE INTERNA'],
-        description: row['DESCRIPCION'],
-        shallow_gauge: row['CALIBRE SUPERFICIAL'],
-        total_gauge: row['CALIBRE TOTAL'],
-        backup: row['RESPALDO'],
-        sizes: row['PRESENTACIONES'],
-        availability: row['DISPONIBILIDAD'],
-        obs: row['OBS'],
-        approval: row['APROBACION PARA CONTACTO CON ALIMENTOS'],
-        sustainable: row['SUSTENTABLES'],
-        digital: row['DIGITAL'],
-        delivery_time: row['COMPROMISO DE TIEMPO DE ENTREGA'],
-        quote_cost: row['COSTO PARA COTIZAR'],
-        currency1: row['MON'],
-        price_currency_2: row['PRECIO POR M2'],
-        currency2: row['MON']
-      };
-  
-      // Procesar cada campo
-      for (const [field, value] of Object.entries(mappings)) {
-        if (value === undefined || value === null) continue;
-  
-        let formattedValue: string;
-        
-        // Campos numéricos especiales
-        if (['shallow_gauge', 'total_gauge', 'backup', 'quote_cost', 'price_currency_2'].includes(field)) {
-          const numValue = typeof value === 'number' ? value : parseFloat(value.toString().replace(',', ''));
-          formattedValue = isNaN(numValue) ? 'NULL' : numValue.toString();
-        } else {
-          // Campos de texto
-          formattedValue = `'${value.toString().replace(/'/g, "''")}'`;
-        }
-  
-        if (formattedValue !== 'NULL') {
-          fields.push(field);
-          values.push(formattedValue);
-        }
+      if (!data || data.length === 0) {
+        console.log("No data found in die cutters Excel file");
+        return null;
       }
   
-      // Campos fijos
-      fields.push('provider_id', 'adhesive_type_id', 'coating_type_id', 'created_at');
-      values.push('1', '1', '1', 'CURRENT_TIMESTAMP');
+      const expectedColumns = [
+        'empty1', 'internal_number', 'theets', 'die_cutter_number', 'ubication',
+        'width', 'x', 'length', 'tape', 'side_gap', 'upper_gap',
+        'step_repetitions', 'repetitions_to_development', 'figure',
+        'thousand_ml', 'thousand_area', 'material', 'comments', 'provider', 'entry_date'
+      ];
   
-      // Crear sentencia INSERT
-      inserts.push(`INSERT INTO materials (${fields.join(', ')}) VALUES (${values.join(', ')});`);
-    });
+      // Rename columns to expected names
+      const renamedData: DieCutterRow[] = data.map((row: any) => {
+        const newRow: DieCutterRow = {};
+        const originalColumns = Object.keys(row);
+        
+        for (let i = 0; i < Math.min(originalColumns.length, expectedColumns.length); i++) {
+          newRow[expectedColumns[i] as keyof DieCutterRow] = row[originalColumns[i]];
+        }
+        
+        return newRow;
+      });
   
-    return inserts;
-  }
-
-// Process Die Cutters Excel
-function processDieCutters(excelFilePath: string): DieCutterRow[] | null {
-  try {
-    const workbook = xlsx.readFile(excelFilePath);
-    const sheetName = workbook.SheetNames[0];
-    const sheet = workbook.Sheets[sheetName];
-    
-    // Skip first 2 rows and use row 3 as headers
-    const data: any[] = xlsx.utils.sheet_to_json(sheet, { range: 2, defval: null });
-
-    if (!data || data.length === 0) {
-      console.log("No data found in die cutters Excel file");
+      // Filter out completely empty rows
+      return renamedData.filter((row: DieCutterRow) => {
+        return Object.values(row).some(value => value !== null && value !== '');
+      });
+  
+    } catch (error) {
+      console.log(`Error al procesar suajes: ${error}`);
       return null;
     }
-
-    const expectedColumns = [
-      'empty1', 'internal_number', 'theets', 'die_cutter_number', 'ubication',
-      'width', 'x', 'length', 'tape', 'side_gap', 'upper_gap',
-      'step_repetitions', 'repetitions_to_development', 'figure',
-      'thousand_ml', 'thousand_area', 'material', 'comments', 'provider', 'entry_date'
-    ];
-
-    // Rename columns to expected names
-    const renamedData: DieCutterRow[] = data.map((row: any) => {
-      const newRow: DieCutterRow = {};
-      const originalColumns = Object.keys(row);
-      
-      for (let i = 0; i < Math.min(originalColumns.length, expectedColumns.length); i++) {
-        newRow[expectedColumns[i] as keyof DieCutterRow] = row[originalColumns[i]];
-      }
-      
-      return newRow;
-    });
-
-    // Filter out completely empty rows
-    return renamedData.filter((row: DieCutterRow) => {
-      return Object.values(row).some(value => value !== null && value !== '');
-    });
-
-  } catch (error) {
-    console.log(`Error al procesar suajes: ${error}`);
-    return null;
   }
-}
 
-// Generate Combined SQL Script
-function generateCombinedSqlScript(materialsData: MaterialRow[] | null, dieCuttersData: DieCutterRow[] | null, sqlFilePath: string): void {
-  const scriptHeader = `
--- Total de registros en materiales.xlsx: ${materialsData?.length || 0}
--- Total de registros en suajes.xlsx: ${dieCuttersData?.length || 0}
+  function generateCombinedSqlScript(
+    materialsData: MaterialRow[] | null,
+    dieCuttersData: DieCutterRow[] | null,
+    sqlFilePath: string
+  ): string {
+    const scriptHeader = `
+  -- Total de registros en materiales.xlsx: ${materialsData?.length || 0}
+  -- Total de registros en suajes.xlsx: ${dieCuttersData?.length || 0}
+  
+  BEGIN;
+  SET FOREIGN_KEY_CHECKS = 0;
+  
+  `;
+  
+    const insertStatements: string[] = [];
+    const skippedRecords = { materials: 0, die_cutters: 0 };
 
-BEGIN;
-SET FOREIGN_KEY_CHECKS = 0;
-
-`;
-
-  const insertStatements: string[] = [];
-  const skippedRecords = { materials: 0, die_cutters: 0 };
-
-  // Process materials data
-  if (materialsData) {
-    insertStatements.push("\n-- INSERCIONES PARA TABLA materials\n");
-    insertStatements.push("DELETE FROM materials;\n");
-    insertStatements.push("ALTER TABLE materials AUTO_INCREMENT = 1;\n");
-
-    materialsData.forEach((row, index) => {
-      const internalCode = row['CLAVE INTERNA']?.toString().trim();
-      if (!internalCode) {
-        skippedRecords.materials++;
-        return;
-      }
-
-      const fields: string[] = ['id'];
-      const values: string[] = [(index + 1).toString()];
-
-      const fieldMappings: Record<string, any> = {
-        'name': row['NOMBRE'],
-        'provider_code': row['CLAVE PROVEEDOR'],
-        'internal_code': row['CLAVE INTERNA'],
-        'description': row['DESCRIPCION'],
-        'shallow_gauge': row['CALIBRE SUPERFICIAL'],
-        'total_gauge': row['CALIBRE TOTAL'],
-        'backup': row['RESPALDO'],
-        'sizes': row['PRESENTACIONES'],
-        'availability': row['DISPONIBILIDAD'],
-        'obs': row['OBS'],
-        'approval': row['APROBACION PARA CONTACTO CON ALIMENTOS'],
-        'sustainable': row['SUSTENTABLES'],
-        'digital': row['DIGITAL'],
-        'delivery_time': row['COMPROMISO DE TIEMPO DE ENTREGA'],
-        'quote_cost': row['COSTO PARA COTIZAR'],
-        'currency1': row['MON'],
-        'price_currency_2': row['PRECIO POR M2'],
-        'currency2': row['MON'],
-        'provider_id': '1',
-        'adhesive_type_id': '1',
-        'coating_type_id': '1',
-        'created_at': 'CURRENT_TIMESTAMP',
-        'updated_at': 'NULL',
-        'deleted_at': 'NULL'
-      };
-
-      for (const [field, value] of Object.entries(fieldMappings)) {
-        if (field === 'created_at' || field === 'updated_at' || field === 'deleted_at') {
-          // Skip adding these to fields array, they're handled specially
-          continue;
+    if (materialsData) {
+      insertStatements.push("\n-- INSERCIONES PARA TABLA materials\n");
+      insertStatements.push("DELETE FROM materials;\n");
+      insertStatements.push("ALTER TABLE materials AUTO_INCREMENT = 1;\n");
+  
+      materialsData.forEach((row, index) => {
+        const internalCode = row['CLAVE INTERNA']?.toString().trim();
+        if (!internalCode) {
+          skippedRecords.materials++;
+          return;
         }
-
-        let formattedValue: string | null = null;
-        
-        if (field === 'shallow_gauge' || field === 'total_gauge' || field === 'backup' || 
-            field === 'quote_cost' || field === 'price_currency_2') {
-          try {
-            if (value === null || value === undefined) {
-              formattedValue = 'NULL';
-            } else {
-              const num = typeof value === 'number' ? value : parseFloat(value.toString().replace(',', '.'));
-              formattedValue = isNaN(num) ? 'NULL' : num.toString();
-            }
-          } catch {
-            formattedValue = 'NULL';
+  
+        const fields: string[] = ['id'];
+        const values: string[] = [(index + 1).toString()];
+  
+        const fieldMappings: Record<string, any> = {
+          'name': row['NOMBRE'],
+          'provider_code': row['CLAVE PROVEEDOR'],
+          'internal_code': row['CLAVE INTERNA'],
+          'description': row['DESCRIPCION'],
+          'shallow_gauge': row['CALIBRE SUPERFICIAL'],
+          'total_gauge': row['CALIBRE TOTAL'],
+          'backup': row['RESPALDO'],
+          'sizes': row['PRESENTACIONES'],
+          'availability': row['DISPONIBILIDAD'],
+          'obs': row['OBS'],
+          'approval': row['APROBACION PARA CONTACTO CON ALIMENTOS'],
+          'sustainable': row['SUSTENTABLES'],
+          'digital': row['DIGITAL'],
+          'delivery_time': row['COMPROMISO DE TIEMPO DE ENTREGA'],
+          'quote_cost': row['COSTO PARA COTIZAR'],
+          'currency1': row['MON'],
+          'price_currency_2': row['PRECIO POR M2'],
+          'currency2': row['MON'],
+          'provider_id': '1',
+          'adhesive_type_id': '1',
+          'coating_type_id': '1',
+          'created_at': 'CURRENT_TIMESTAMP',
+          'updated_at': 'NULL',
+          'deleted_at': 'NULL'
+        };
+  
+        for (const [field, value] of Object.entries(fieldMappings)) {
+          if (field === 'created_at' || field === 'updated_at' || field === 'deleted_at') {
+            continue;
           }
+  
+          let formattedValue: string | null = null;
+          
+          if (field === 'shallow_gauge' || field === 'total_gauge' || field === 'backup' || 
+              field === 'quote_cost' || field === 'price_currency_2') {
+            try {
+              if (value === null || value === undefined) {
+                formattedValue = 'NULL';
+              } else {
+                const num = typeof value === 'number' ? value : parseFloat(value.toString().replace(',', '.'));
+                formattedValue = isNaN(num) ? 'NULL' : num.toString();
+              }
+            } catch {
+              formattedValue = 'NULL';
+            }
+          } else {
+            formattedValue = formatSqlValue(value, field, true);
+          }
+  
+          if (formattedValue !== null && formattedValue !== 'NULL') {
+            fields.push(field);
+            values.push(formattedValue);
+          }
+        }
+
+        fields.push('created_at');
+        values.push('CURRENT_TIMESTAMP');
+        fields.push('updated_at');
+        values.push('NULL');
+        fields.push('deleted_at');
+        values.push('NULL');
+  
+        if (fields.length > 1) {
+          insertStatements.push(`INSERT INTO materials (${fields.join(', ')}) VALUES (${values.join(', ')});\n`);
         } else {
-          formattedValue = formatSqlValue(value, field, true);
+          skippedRecords.materials++;
         }
-
-        if (formattedValue !== null && formattedValue !== 'NULL') {
-          fields.push(field);
-          values.push(formattedValue);
+      });
+    }
+  
+    if (dieCuttersData) {
+      insertStatements.push("\n-- INSERCIONES PARA TABLA die_cutters\n");
+      insertStatements.push("DELETE FROM die_cutters;\n");
+      insertStatements.push("ALTER TABLE die_cutters AUTO_INCREMENT = 1;\n");
+  
+      dieCuttersData.forEach((row, index) => {
+        const dieCutterNumber = row['die_cutter_number']?.toString().trim();
+        if (!dieCutterNumber) {
+          skippedRecords.die_cutters++;
+          return;
         }
-      }
-
-      // Add the special fields
-      fields.push('created_at');
-      values.push('CURRENT_TIMESTAMP');
-      fields.push('updated_at');
-      values.push('NULL');
-      fields.push('deleted_at');
-      values.push('NULL');
-
-      if (fields.length > 1) {
-        insertStatements.push(`INSERT INTO materials (${fields.join(', ')}) VALUES (${values.join(', ')});\n`);
-      } else {
-        skippedRecords.materials++;
-      }
-    });
-  }
-
-  // Process die cutters data
-  if (dieCuttersData) {
-    insertStatements.push("\n-- INSERCIONES PARA TABLA die_cutters\n");
-    insertStatements.push("DELETE FROM die_cutters;\n");
-    insertStatements.push("ALTER TABLE die_cutters AUTO_INCREMENT = 1;\n");
-
-    dieCuttersData.forEach((row, index) => {
-      const dieCutterNumber = row['die_cutter_number']?.toString().trim();
-      if (!dieCutterNumber) {
-        skippedRecords.die_cutters++;
-        return;
-      }
-
-      const fields: string[] = ['id'];
-      const values: string[] = [(index + 1).toString()];
-
-      const fieldMappings: Record<string, any> = {
-        'internal_number': row['internal_number'],
-        'theets': row['theets'],
-        'die_cutter_number': row['die_cutter_number'],
-        'ubication': row['ubication'],
-        'width': row['width'],
-        'length': row['length'],
-        'tape': row['tape'],
-        'side_gap': row['side_gap'],
-        'upper_gap': row['upper_gap'],
-        'step_repetitions': row['step_repetitions'],
-        'repetitions_to_development': row['repetitions_to_development'],
-        'thousand_ml': row['thousand_ml'],
-        'thousand_area': row['thousand_area'],
-        'comments': row['comments'],
-        'entry_date': row['entry_date'],
-        'material_id': row['material'],
-        'provider_id': row['provider'],
-        'created_at': 'CURRENT_TIMESTAMP',
-        'updated_at': 'NULL'
-      };
-
-      for (const [field, value] of Object.entries(fieldMappings)) {
-        let formattedValue: string | null = null;
-        
-        if (field === 'created_at' || field === 'updated_at') {
-          // Skip adding these to fields array, they're handled specially
-          continue;
+  
+        const fields: string[] = ['id'];
+        const values: string[] = [(index + 1).toString()];
+  
+        const fieldMappings: Record<string, any> = {
+          'internal_number': row['internal_number'],
+          'theets': row['theets'],
+          'die_cutter_number': row['die_cutter_number'],
+          'ubication': row['ubication'],
+          'width': row['width'],
+          'length': row['length'],
+          'tape': row['tape'],
+          'side_gap': row['side_gap'],
+          'upper_gap': row['upper_gap'],
+          'step_repetitions': row['step_repetitions'],
+          'repetitions_to_development': row['repetitions_to_development'],
+          'thousand_ml': row['thousand_ml'],
+          'thousand_area': row['thousand_area'],
+          'comments': row['comments'],
+          'entry_date': row['entry_date'],
+          'material_id': row['material'],
+          'provider_id': row['provider'],
+          'created_at': 'CURRENT_TIMESTAMP',
+          'updated_at': 'NULL'
+        };
+  
+        for (const [field, value] of Object.entries(fieldMappings)) {
+          let formattedValue: string | null = null;
+          
+          if (field === 'created_at' || field === 'updated_at') {
+            continue;
+          }
+  
+          formattedValue = formatSqlValue(value, field);
+  
+          if (formattedValue !== null) {
+            fields.push(field);
+            values.push(formattedValue);
+          }
         }
-
-        formattedValue = formatSqlValue(value, field);
-
-        if (formattedValue !== null) {
-          fields.push(field);
-          values.push(formattedValue);
+  
+        fields.push('created_at');
+        values.push('CURRENT_TIMESTAMP');
+        fields.push('updated_at');
+        values.push('NULL');
+  
+        if (fields.length > 1) {
+          insertStatements.push(`INSERT INTO die_cutters (${fields.join(', ')}) VALUES (${values.join(', ')});\n`);
+        } else {
+          skippedRecords.die_cutters++;
         }
-      }
-
-      // Add the special fields
-      fields.push('created_at');
-      values.push('CURRENT_TIMESTAMP');
-      fields.push('updated_at');
-      values.push('NULL');
-
-      if (fields.length > 1) {
-        insertStatements.push(`INSERT INTO die_cutters (${fields.join(', ')}) VALUES (${values.join(', ')});\n`);
-      } else {
-        skippedRecords.die_cutters++;
-      }
-    });
-  }
-
-  const scriptFooter = `
-SET FOREIGN_KEY_CHECKS = 1;
-COMMIT;
--- Fin del script de actualización
-`;
-
+      });
+    }
+  
+    const scriptFooter = `
+  SET FOREIGN_KEY_CHECKS = 1;
+  COMMIT;
+  -- Fin del script de actualización
+  `;
+  
   try {
     fs.writeFileSync(sqlFilePath, scriptHeader + insertStatements.join('') + scriptFooter, 'utf8');
 
-    console.log(`\nScript SQL combinado generado exitosamente en: ${sqlFilePath}`);
+    console.log(`\nScript SQL generado en: ${sqlFilePath}`);
     console.log(`Total registros materiales: ${materialsData?.length || 0} (omitidos: ${skippedRecords.materials})`);
     console.log(`Total registros suajes: ${dieCuttersData?.length || 0} (omitidos: ${skippedRecords.die_cutters})`);
 
+    return sqlFilePath;
+
   } catch (error) {
     console.log(`Error al escribir el archivo SQL: ${error}`);
+    throw error;
   }
 }
 
-const BASE_DIR = process.cwd(); 
+// Ejecutar consultas a la base de datos
+async function executeSqlFile(filePath: string) {
+  let connection;
+  try {
+    connection = await mysql.createConnection(dbConfig);
+    const sql = fs.readFileSync(filePath, 'utf8');
+    
+    console.log('\nEjecutando consultas en bloques...');
+    
+    // Dividir el SQL en consultas individuales
+    const queries = sql.split(';\n').filter(q => q.trim().length > 0);
+    
+    await connection.beginTransaction();
+    
+    for (const query of queries) {
+      try {
+        await connection.query(query);
+      } catch (queryError) {
+        console.error(`Error en consulta: ${query.slice(0, 50)}...`);
+        throw queryError;
+      }
+    }
+    
+    await connection.commit();
+    console.log('Transacción completada correctamente');
+    
+  } catch (error) {
+    if (connection) await connection.rollback();
+    console.error('Error ejecutando consultas:', error);
+    throw error;
+  } finally {
+    if (connection) await connection.end();
+  }
+}
+
+const BASE_DIR = process.cwd();
 const EXCEL_FOLDER = path.join(BASE_DIR, 'files');
 const OUTPUT_FOLDER = path.join(BASE_DIR, 'sql_output');
 
-if (!fs.existsSync(EXCEL_FOLDER)) {
-  fs.mkdirSync(EXCEL_FOLDER, { recursive: true });
-}
-if (!fs.existsSync(OUTPUT_FOLDER)) {
-  fs.mkdirSync(OUTPUT_FOLDER, { recursive: true });
-}
-
-const MATERIALS_EXCEL = path.join(EXCEL_FOLDER, 'materiales.xlsx');
-const DIE_CUTTERS_EXCEL = path.join(EXCEL_FOLDER, 'suajes.xlsx');
-const OUTPUT_SQL = path.join(OUTPUT_FOLDER, 'update_train_db.sql');
-
 function checkFilesExist() {
   const errors: string[] = [];
-  
-  if (!fs.existsSync(MATERIALS_EXCEL)) {
-    errors.push(`No se encontró el archivo: ${MATERIALS_EXCEL}`);
-  }
-  
-  if (!fs.existsSync(DIE_CUTTERS_EXCEL)) {
-    errors.push(`No se encontró el archivo: ${DIE_CUTTERS_EXCEL}`);
-  }
-  
+  const MATERIALS_EXCEL = path.join(EXCEL_FOLDER, 'materiales.xlsx');
+  const DIE_CUTTERS_EXCEL = path.join(EXCEL_FOLDER, 'suajes.xlsx');
+
+  if (!fs.existsSync(MATERIALS_EXCEL)) errors.push(`Falta: ${MATERIALS_EXCEL}`);
+  if (!fs.existsSync(DIE_CUTTERS_EXCEL)) errors.push(`Falta: ${DIE_CUTTERS_EXCEL}`);
+
   if (errors.length > 0) {
     console.error('Errores encontrados:');
     errors.forEach(err => console.error(`- ${err}`));
-    console.log(`\nPor favor coloca los archivos en: ${EXCEL_FOLDER}`);
+    console.log(`\nColoque los archivos en: ${EXCEL_FOLDER}`);
     return false;
   }
-  
   return true;
 }
 
-function main() {
-  if (!checkFilesExist()) {
-    return;
+async function main() {
+  if (!checkFilesExist()) return;
+
+  console.log(`\nProcesando archivos desde: ${EXCEL_FOLDER}`);
+  
+  try {
+    const MATERIALS_EXCEL = path.join(EXCEL_FOLDER, 'materiales.xlsx');
+    const DIE_CUTTERS_EXCEL = path.join(EXCEL_FOLDER, 'suajes.xlsx');
+    const OUTPUT_SQL = path.join(OUTPUT_FOLDER, 'update_train_db.sql');
+
+    const materialsData = processMaterials(MATERIALS_EXCEL);
+    const dieCuttersData = processDieCutters(DIE_CUTTERS_EXCEL);
+
+    const sqlPath = generateCombinedSqlScript(materialsData, dieCuttersData, OUTPUT_SQL);
+    await executeSqlFile(sqlPath);
+    
+  } catch (error) {
+    console.error('\nError en el proceso:', error);
+    process.exit(1);
   }
+}
 
-  console.log(`Procesando archivos desde: ${EXCEL_FOLDER}`);
-  console.log(`- Materiales: ${MATERIALS_EXCEL}`);
-  console.log(`- Suajes: ${DIE_CUTTERS_EXCEL}`);
+function generateMaterialInserts(materialsData: MaterialRow[]): string[] {
+  const inserts: string[] = [];
   
-  const materialsData = processMaterials(MATERIALS_EXCEL);
-  const dieCuttersData = processDieCutters(DIE_CUTTERS_EXCEL);
+  materialsData.forEach((row, index) => {
+    const fields: string[] = ['id'];
+    const values: string[] = [(index + 1).toString()];
 
-  generateCombinedSqlScript(materialsData, dieCuttersData, OUTPUT_SQL);
-  
-  console.log(`\nArchivo SQL generado en: ${OUTPUT_SQL}`);
+    // Mapeo de campos
+    const mappings = {
+      name: row['NOMBRE'],
+      provider_code: row['CLAVE PROVEEDOR'],
+      internal_code: row['CLAVE INTERNA'],
+      description: row['DESCRIPCION'],
+      shallow_gauge: row['CALIBRE SUPERFICIAL'],
+      total_gauge: row['CALIBRE TOTAL'],
+      backup: row['RESPALDO'],
+      sizes: row['PRESENTACIONES'],
+      availability: row['DISPONIBILIDAD'],
+      obs: row['OBS'],
+      approval: row['APROBACION PARA CONTACTO CON ALIMENTOS'],
+      sustainable: row['SUSTENTABLES'],
+      digital: row['DIGITAL'],
+      delivery_time: row['COMPROMISO DE TIEMPO DE ENTREGA'],
+      quote_cost: row['COSTO PARA COTIZAR'],
+      currency1: row['MON'],
+      price_currency_2: row['PRECIO POR M2'],
+      currency2: row['MON']
+    };
+
+    // Procesar cada campo
+    for (const [field, value] of Object.entries(mappings)) {
+      if (value === undefined || value === null) continue;
+
+      let formattedValue: string;
+      
+      // Campos numéricos especiales
+      if (['shallow_gauge', 'total_gauge', 'backup', 'quote_cost', 'price_currency_2'].includes(field)) {
+        const numValue = typeof value === 'number' ? value : parseFloat(value.toString().replace(',', ''));
+        formattedValue = isNaN(numValue) ? 'NULL' : numValue.toString();
+      } else {
+        // Campos de texto
+        formattedValue = `'${value.toString().replace(/'/g, "''")}'`;
+      }
+
+      if (formattedValue !== 'NULL') {
+        fields.push(field);
+        values.push(formattedValue);
+      }
+    }
+
+    // Campos fijos
+    fields.push('provider_id', 'adhesive_type_id', 'coating_type_id', 'created_at');
+    values.push('1', '1', '1', 'CURRENT_TIMESTAMP');
+
+    // Crear sentencia INSERT
+    inserts.push(`INSERT INTO materials (${fields.join(', ')}) VALUES (${values.join(', ')});`);
+  });
+
+  return inserts;
 }
 
 main();
